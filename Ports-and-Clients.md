@@ -8,6 +8,7 @@ Common:
 * C: [shadowsocks-libev](https://github.com/clowwindy/shadowsocks-libev) - libev version, only client
 * C: [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - libuv version, only server
 * C: [shadowsocks-openwrt](https://github.com/haohaolee/shadowsocks-openwrt) - works on OpenWRT routers
+* C#: [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - with Windows GUI
 * Ruby: [shadowsocks-ruby](https://github.com/clowwindy/shadowsocks-ruby)
 * node.js: [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - dotcloud PAAS version. **Not compatible with other version**
 
