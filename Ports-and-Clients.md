@@ -10,6 +10,7 @@ Common:
 * C: [shadowsocks-openwrt](https://github.com/haohaolee/shadowsocks-openwrt) - works on OpenWRT routers
 * C#: [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - with Windows GUI
 * Ruby: [shadowsocks-ruby](https://github.com/clowwindy/shadowsocks-ruby)
+* Javascript: [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
 * node.js: [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - dotcloud PAAS version. **Not compatible with other version**
 
 Mobile:
