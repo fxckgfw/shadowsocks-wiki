@@ -21,6 +21,7 @@ Other Clients that support shadowsocks:
 * [GoAgentX](https://github.com/ohdarling/GoAgentX)
 * [cow](https://github.com/cyfdecyf/cow)
 * [pobi](https://github.com/jackyz/pobi)
+* [lightsocks](https://github.com/clowwindy/lightsocks)
 
 Forks which added other features:
 * [balan-proxy](https://github.com/lerry/balan-proxy)
