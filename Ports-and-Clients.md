@@ -15,7 +15,9 @@ Common:
 
 Mobile:
 * Android: [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
-* iOS: [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS)
+* iOS: [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) - non-jailbreaking
+* iOS: [ShadowWeb](https://github.com/clowwindy/ShadowWeb) - non-jailbreaking
+* iOS: [MobileShadowSocks](https://github.com/linusyang/MobileShadowSocks) - jailbreaking
 
 Other Clients that support shadowsocks:
 * [GoAgentX](https://github.com/ohdarling/GoAgentX)
