@@ -24,7 +24,7 @@ Other Clients that support shadowsocks:
 * [cow](https://github.com/cyfdecyf/cow)
 * [pobi](https://github.com/jackyz/pobi)
 * [lightsocks](https://github.com/clowwindy/lightsocks)
-* [Yingwa](https://github.com/dallascao/yingwa)Shadowsocks Windows client
+* [Yingwa](https://github.com/dallascao/yingwa) Shadowsocks Windows client
 
 Forks which added other features:
 * [balan-proxy](https://github.com/lerry/balan-proxy)
