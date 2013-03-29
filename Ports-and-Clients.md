@@ -1,6 +1,6 @@
 Feel free to add to this list.
 
-For server & cross-platform
+Server side & cross-platform clients
 ---------------------------
 
 * [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
