@@ -14,7 +14,7 @@ Server side & cross-platform clients
 Mac OSX
 ---------------------------
 
-* [GoAgentX](https://github.com/ohdarling/GoAgentX)
+* [GoAgentX](https://github.com/ohdarling/GoAgentX) - OSX client, with GUI
 
 Windows
 ---------------------------
