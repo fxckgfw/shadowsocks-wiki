@@ -33,7 +33,7 @@ Android
 
 * [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
 
-Maybe not stable
+Experimental
 ---------------------------
 * [shadowsocks-ruby](https://github.com/clowwindy/shadowsocks-ruby) Ruby version
 * [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
