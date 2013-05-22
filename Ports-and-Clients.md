@@ -10,6 +10,7 @@ Server side & cross-platform clients
 * [shadowsocks-libev](https://github.com/clowwindy/shadowsocks-libev) - libev version
 * [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - libuv version
 * [shadowsocks-openwrt](https://github.com/haohaolee/shadowsocks-openwrt) - works on OpenWRT routers
+* [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
 
 Mac OSX
 ---------------------------
