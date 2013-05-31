@@ -7,7 +7,7 @@ Server side
 * [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - nodejs version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other version**
-* [shadowsocks-libev](https://github.com/clowwindy/shadowsocks-libev) - libev version
+* [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - libev version
 * [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - libuv version
 * [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
 
