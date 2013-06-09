@@ -28,6 +28,7 @@ Linux clients
 ---------------------------
 
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered node and by Webkit
+* Or use command line versions in [Server side](#Server-side)
 
 iOS clients
 ---------------------------
