@@ -1,5 +1,6 @@
 Feel free to add to this list.
 
+<a id="server-side"></a>
 Server side
 ---------------------------
 
@@ -28,7 +29,7 @@ Linux clients
 ---------------------------
 
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered node and by Webkit
-* Or use command line versions in [Server side](#Server-side)
+* Or use command line versions in <a href="#server-side">Server side</a>
 
 iOS clients
 ---------------------------
