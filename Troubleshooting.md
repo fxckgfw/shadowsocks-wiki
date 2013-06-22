@@ -1,6 +1,3 @@
-Troubleshooting
----------------
-
 * I can only load some websites  
     Check the logs of local.py. If you see only IPs, not hostnames, your may got DNS poisoned, but your browser hasn\'t 
     been configured to let the proxy resolve DNS.  
