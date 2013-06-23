@@ -1,4 +1,4 @@
-* With the proxy set, I failed to load some websites, while the other websites seem normal
+* With the proxy set, I failed to load some websites, while the other websites seem normal  
     Check the logs of local.py. If you see only IP addresses instead of hostnames, your may have suffered DNS poisoning, but your browser hasn\'t 
     been configured to let the proxy resolve DNS.  
     To configure DNS properly, you can simply install FoxyProxy or Autoproxy for Firefox, ProxySwitchy or SwitchySharp for 
