@@ -9,3 +9,5 @@
 * I use IE and I can't get my proxy to work    
     Since you can\'t specify Socks4 or Socks5 in IE settings, you may want to use a PAC (Proxy auto-config) script, or 
     just use Firefox instead.
+
+If you have other problems, please visit our [mailing list](http://groups.google.com/group/shadowsocks).
