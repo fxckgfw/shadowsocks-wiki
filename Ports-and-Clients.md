@@ -5,12 +5,12 @@ Server side
 ---------------------------
 
 * [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
-* [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - nodejs version
+* [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
-* [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other version**
-* [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - libev version
-* [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - libuv version
+* [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
+* [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
 * [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
+* [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other version**
 
 Mac OSX clients
 ---------------------------
@@ -34,8 +34,8 @@ Linux clients
 iOS clients
 ---------------------------
 
-* [MobileShadowSocks](https://github.com/linusyang/MobileShadowSocks) - jailbroken devices only, global proxy
-* [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) - all devices, works only with builtin browser
+* [MobileShadowSocks](https://github.com/linusyang/MobileShadowSocks) - Jailbroken devices only, global proxy
+* [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) - All devices, works only with builtin browser
 
 Android clients
 ---------------------------
