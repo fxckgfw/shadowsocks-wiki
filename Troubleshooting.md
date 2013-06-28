@@ -1,8 +1,8 @@
 * With the proxy set, I failed to load some websites, while the other websites seem normal  
     Check the logs of local.py. If you see only IP addresses instead of hostnames, your may have suffered DNS poisoning, but your browser hasn\'t 
     been configured to let the proxy resolve DNS.  
-    To configure DNS properly, you can simply install FoxyProxy or Autoproxy for Firefox, ProxySwitchy or SwitchySharp for 
-    Chrome. They will configure your browser automatically.  
+    To configure DNS properly, you can simply install **FoxyProxy or Autoproxy for Firefox, ProxySwitchy or SwitchySharp for 
+    Chrome**. They will configure your browser automatically.  
     Or you can change network.proxy.socks_remote_dns into true in about:config page if you use Firefox.
 * I can't load any websites, and the log prints `mode != 1`  
     Make sure proxy protocol is set to Socks5, not Socks4 or HTTP.
