@@ -28,7 +28,7 @@ autorestart=true
 user=nobody
 
 [eventlistener:crashmail]
-command=/usr/local/bin/crashmail -a -m my@email.com
+command=/usr/local/bin/crashmail -a -m your@email.com
 events=PROCESS_STATE
 ```
 
