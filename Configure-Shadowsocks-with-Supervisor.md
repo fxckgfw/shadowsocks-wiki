@@ -16,8 +16,7 @@ Edit `/etc/shadowsocks.json`
 Run
 ```
 apt-get install python-pip python-m2crypto python-gevent supervisor
-pip install shadowsocks
-pip install superlance
+pip install shadowsocks superlance
 ```
 
 Edit `/etc/supervisor/conf.d/shadowsocks.conf`
