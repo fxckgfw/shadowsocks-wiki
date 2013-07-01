@@ -1,4 +1,4 @@
-Here is an example of running shadowsocks with [supervisor](http://supervisord.org/index.html):
+Here is an example of running shadowsocks with [supervisor](http://supervisord.org/index.html) on Debian 6.0:
 
 Edit `/etc/shadowsocks.json`
 
