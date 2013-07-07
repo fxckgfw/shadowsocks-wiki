@@ -34,8 +34,8 @@ Linux clients
 iOS clients
 ---------------------------
 
-* [MobileShadowSocks](https://github.com/linusyang/MobileShadowSocks) - Jailbroken devices only, global proxy
-* [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) - All devices, works only with builtin browser
+* [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) - All devices, web browser, global proxy with some restrictions
+* [MobileShadowSocks](https://github.com/linusyang/MobileShadowSocks) - Jailbroken devices only, global proxy with no restriction
 
 Android clients
 ---------------------------
