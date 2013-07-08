@@ -48,6 +48,8 @@ shadowsocks 是一个轻量级隧道代理，用来穿过防火墙。
     地址： 127.0.0.1
     端口： 刚才填的 local_port
 
+注意，如果选择 "table" 之外的加密，需要安装 M2Crypto（见后面“加密”一节）。
+
 推荐配合 AutoProxy 或者 Proxy SwitchySharp 一起使用。
 
 命令行参数
