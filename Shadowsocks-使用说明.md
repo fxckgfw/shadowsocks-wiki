@@ -83,12 +83,14 @@ shadowsocks 是一个轻量级隧道代理，用来穿过防火墙。
 
 如果想使用 table 之外的加密方法，要先安装 [M2Crypto](http://chandlerproject.org/Projects/MeTooCrypto).
 
+
 Ubuntu:
 
-    sudo apt-get install python-m2crypto
+    apt-get install python-m2crypto
 
-其它系统：
+其它系统:
 
+    apt-get install openssl-dev swig
     pip install M2Crypto
 
 注意，在有些系统上其中一些加密方法可能不可用。
