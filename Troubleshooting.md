@@ -9,5 +9,7 @@
 * I use IE and I can't get my proxy to work    
     Since you can't specify Socks4 or Socks5 in IE settings, you may want to use a PAC (Proxy auto-config) script, or 
     just use Firefox instead.
+* (Nodejs version) When I use AES-256-CFB, I got some logs like `unsupported addrtype: 115`.  
+    Upgrade your nodejs to the latest version.
 
 If you have other problems, feel free to post questions to our [mailing list](http://groups.google.com/group/shadowsocks).
