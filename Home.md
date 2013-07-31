@@ -1,5 +1,6 @@
 - [Ports and clients](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients)
 - [Configure Shadowsocks with Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor)
+- [Convert Shadowsocks to an HTTP proxy](https://github.com/clowwindy/shadowsocks/wiki/Convert-Shadowsocks-to-an-HTTP-proxy)
 - [中文手册](https://github.com/clowwindy/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 - [Troubleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting)
 - [Mailing list](http://groups.google.com/group/shadowsocks)
