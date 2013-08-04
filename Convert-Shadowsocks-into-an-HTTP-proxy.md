@@ -10,4 +10,10 @@ Then you can play with the HTTP proxy:
 
 ```bash
 http_proxy=http://localhost:8123 apt-get update
+
+git config --global http.proxy 127.0.0.1:8123
+git clone https://github.com/xxx/xxx.git
+git xxx
+git xxx
+git config --global --unset-all http.proxy
 ```
