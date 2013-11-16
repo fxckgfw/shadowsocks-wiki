@@ -15,20 +15,20 @@ Server side
 Mac OSX clients
 ---------------------------
 
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node and Webkit
+* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
 * [GoAgentX](https://github.com/ohdarling/GoAgentX) - OSX client, with GUI
 
 Windows clients
 ---------------------------
 
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node and Webkit
+* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
 * [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Windows version with GUI
 * [Yingwa](https://github.com/dallascao/yingwa) - Shadowsocks Windows client
 
 Linux clients
 ---------------------------
 
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered node and by Webkit
+* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
 * Or use command line versions in <a href="#server-side">Server side</a>
 
 iOS clients
