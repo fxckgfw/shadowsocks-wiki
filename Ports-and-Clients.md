@@ -58,6 +58,7 @@ Other clients that support shadowsocks
 * [cow](https://github.com/cyfdecyf/cow) - Powerful HTTP proxy, detecting blocked sites automatically
 * [pobi](https://github.com/jackyz/pobi)
 * [lightsocks](https://github.com/clowwindy/lightsocks) - Transparent TCP proxy
+* [Tweet4China2](https://github.com/tuoxie007/Tweet4China2) - A Twitter client
 
 Forks with other features
 --------------------------------
