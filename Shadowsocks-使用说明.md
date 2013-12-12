@@ -90,6 +90,11 @@ Ubuntu:
 
     apt-get install python-m2crypto
 
+Debian:
+
+    apt-get install libssl-dev swig
+    pip install M2Crypto
+
 其它系统:
 
     apt-get install openssl-dev swig
