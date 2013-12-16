@@ -5,6 +5,7 @@ Server side
 ---------------------------
 
 * [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
+* [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
 * [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
 * [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
