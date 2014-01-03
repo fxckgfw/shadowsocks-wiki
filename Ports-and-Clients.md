@@ -4,6 +4,7 @@ Feel free to add to this list.
 Server side
 ---------------------------
 
+* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 * [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
 * [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
 * [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
