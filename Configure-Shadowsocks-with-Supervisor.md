@@ -39,6 +39,13 @@ supervisorctl reload
 ```
 Now it's up.
 
+Control the shadowsocks process:
+```
+supervisorctl stop shadowsocks
+supervisorctl start shadowsocks
+supervisorctl restart shadowsocks
+```
+
 You can check shadowsocks status:
 ```
 supervisorctl status
