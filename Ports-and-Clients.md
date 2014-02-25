@@ -4,14 +4,14 @@ Feel free to add to this list.
 Server side
 ---------------------------
 
-* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 * [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
-* [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
 * [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
 * [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
 * [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
 * [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
+* [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
+* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
 
 Mac OSX clients
