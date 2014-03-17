@@ -17,6 +17,7 @@ Server side
 Mac OSX clients
 ---------------------------
 
+* [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Native Shadowsocks for Mac
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
 * [GoAgentX](https://github.com/ohdarling/GoAgentX) - OSX client, with GUI
 
