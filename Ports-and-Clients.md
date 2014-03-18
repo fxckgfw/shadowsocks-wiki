@@ -44,6 +44,7 @@ Android clients
 ---------------------------
 
 * [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
+* [fqrouter](https://github.com/fqrouter/fqrouter)
 
 Router devices
 ---------------------------
