@@ -10,7 +10,7 @@ On Mac OS X:
 
     brew install proxychains-ng
 
-Make a config file at ~/.proxychains/proxychains.conf
+Make a config file at `~/.proxychains/proxychains.conf` with content:
 
     strict_chain
     proxy_dns 
