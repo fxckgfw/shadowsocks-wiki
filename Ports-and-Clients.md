@@ -14,19 +14,19 @@ Server side
 * [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
 
-Mac OSX clients
----------------------------
-
-* [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Native Shadowsocks for Mac
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
-* [GoAgentX](https://github.com/ohdarling/GoAgentX) - OSX client, with GUI
-
 Windows clients
 ---------------------------
 
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
 * [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Windows version with GUI
 * [Yingwa](https://github.com/dallascao/yingwa) - Shadowsocks Windows client
+
+OS X clients
+---------------------------
+
+* [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Native Shadowsocks for Mac
+* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
+* [GoAgentX](https://github.com/ohdarling/GoAgentX) - OSX client, with GUI
 
 Linux clients
 ---------------------------
@@ -62,7 +62,6 @@ Other clients that support shadowsocks
 * [cow](https://github.com/cyfdecyf/cow) - Powerful HTTP proxy, detecting blocked sites automatically
 * [pobi](https://github.com/jackyz/pobi)
 * [lightsocks](https://github.com/clowwindy/lightsocks) - Transparent TCP proxy
-* [Tweet4China2](https://github.com/tuoxie007/Tweet4China2) - A Twitter client
 
 Forks with other features
 --------------------------------
