@@ -17,7 +17,7 @@ Run
 ```
 apt-get update
 apt-get install python-pip python-m2crypto python-gevent supervisor
-pip install shadowsocks superlance
+pip install shadowsocks
 ```
 
 Edit `/etc/supervisor/conf.d/shadowsocks.conf`
@@ -27,10 +27,6 @@ Edit `/etc/supervisor/conf.d/shadowsocks.conf`
 command=ssserver -c /etc/shadowsocks.json
 autorestart=true
 user=nobody
-
-[eventlistener:crashmail]
-command=/usr/local/bin/crashmail -a -m your@email.com
-events=PROCESS_STATE
 ```
 
 Run
