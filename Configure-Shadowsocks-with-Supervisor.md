@@ -29,8 +29,15 @@ autorestart=true
 user=nobody
 ```
 
+Add the following line into `/etc/default/supervisor`
+
+```
+ulimit -n 51200
+```
+
 Run
 ```
+service supervisor start
 supervisorctl reload
 ```
 Now it's up.
@@ -42,8 +49,7 @@ supervisorctl start shadowsocks
 supervisorctl restart shadowsocks
 ```
 
-You can check shadowsocks status:
+You can check logs:
 ```
-supervisorctl status
 supervisorctl tail shadowsocks
 ```
