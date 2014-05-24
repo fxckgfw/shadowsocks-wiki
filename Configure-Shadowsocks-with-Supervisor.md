@@ -46,10 +46,9 @@ Control the shadowsocks process:
 ```
 supervisorctl stop shadowsocks
 supervisorctl start shadowsocks
-supervisorctl restart shadowsocks
 ```
 
 You can check logs:
 ```
-supervisorctl tail shadowsocks
+supervisorctl tail -f shadowsocks stderr
 ```
