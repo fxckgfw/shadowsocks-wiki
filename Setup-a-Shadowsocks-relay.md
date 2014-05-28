@@ -11,9 +11,9 @@ If you want your client connected to a Japan VPS, but you want a US IP.
 
 ### Better version:
 
-For those who need high performance, use haproxy.
+For those who need high performance, use haproxy instead of socat.
 
-Append the following line to `/etc/apt/sources.list`
+On Japan VPS. Append the following line to `/etc/apt/sources.list`
 
     deb http://ftp.us.debian.org/debian/ wheezy-backports main
 
