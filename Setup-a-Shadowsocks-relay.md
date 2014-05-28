@@ -28,12 +28,12 @@ Edit `/etc/haproxy/haproxy.cfg`
 
 ```
 global
-	ulimit-n  51200
+        ulimit-n  51200
 
 defaults
-	log	global
-	mode	tcp
-	option	dontlognull
+        log	global
+        mode	tcp
+        option	dontlognull
         contimeout 1000
         clitimeout 150000
         srvtimeout 150000
