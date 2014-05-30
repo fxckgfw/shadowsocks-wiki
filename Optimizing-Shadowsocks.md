@@ -12,6 +12,7 @@ net.core.somaxconn = 3240000
 
 net.ipv4.tcp_syncookies = 1
 net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_tw_recycle = 0
 net.ipv4.tcp_fin_timeout = 30
 net.ipv4.tcp_keepalive_time = 1200
 net.ipv4.ip_local_port_range = 10000 65000
@@ -27,3 +28,5 @@ net.ipv4.tcp_congestion_control = hybla
 Then:
 
     sysctl -p
+
+Warning: **DO NOT ENABLE `net.ipv4.tcp_tw_recycle`!!!** See [this article](http://vincent.bernat.im/en/blog/2014-tcp-time-wait-state-linux.html).
