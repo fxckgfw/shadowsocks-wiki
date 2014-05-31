@@ -1,131 +1,126 @@
 shadowsocks
 ===========
 
-shadowsocks 是一个轻量级隧道代理，用来穿过防火墙。
+[![当前状态][1]][0]
 
-其它的移植的版本见[这里](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients).
+shadowsocks 是一个可以穿透防火墙的轻量代理。
 
-使用
-----
+安装方法
+-------
 
-首先，检查 Python 版本，要有 2.6 or 2.7.
+首先要有 Python 2.6 或者 2.7。
 
     $ python --version
     Python 2.6.8
-    
+
 安装 Shadowsocks.
 
+#### Debian / Ubuntu:
+
+    apt-get install build-essential python-pip python-m2crypto python-dev
+    pip install gevent shadowsocks
+
+#### CentOS:
+
+    yum install m2crypto python-setuptools
+    easy_install pip
     pip install shadowsocks
-    
-建一个文件 `config.json`，内容如下：
+
+#### OS X:
+
+    git clone https://github.com/clowwindy/M2Crypto.git
+    cd M2Crypto
+    pip install .
+    pip install shadowsocks
+
+#### Windows:
+
+选一个 [图形客户端][7]
+
+使用方法
+-------
+
+创建一个配置文件 `/etc/shadowsocks.json` (或者放在别的目录下)。
+示例：
 
     {
-        "server":"my_server_ip",
+        "server":"服务器 IP 地址",
         "server_port":8388,
+        "local_address": "127.0.0.1",
         "local_port":1080,
-        "password":"barfoo!",
-        "timeout":600,
-        "method":"table"
+        "password":"mypassword",
+        "timeout":300,
+        "method":"aes-256-cfb",
+        "fast_open": false,
+        "workers": 1
     }
 
-各字段的含义：
+各个字段的意思：
 
-    server          服务器 IP (IPv4/IPv6)，注意这也将是服务端监听的 IP 地址
-    server_port     服务器端口
-    local_port      本地端端口
-    password        用来加密的密码
-    timeout         超时时间（秒）
-    method          加密方法，可选择 "bf-cfb", "aes-256-cfb", "des-cfb", "rc4", 等等。默认是一种不安全的加密，推荐用 "aes-256-cfb"
+| 名字          | 解释                                     |
+| ------------- | ----------------------------------------------- |
+| server        | 服务端监听的地址                                  |
+| server_port   | 服务端的端口                                     |
+| local_address | 本地端监听的地址                                  |
+| local_port    | 本地端的端口                                     |
+| password      | 用于加密的密码                                    |
+| timeout       | 超时时间，单位秒                                  |
+| method        | 加密方法，推荐 "aes-256-cfb"                      |
+| fast_open     | 是否使用 [TCP_FASTOPEN][2], true / false         |
+| workers       | worker 数量，Unix/Linux 可用，如果不理解含义请不要改 |
 
-在服务器上 `cd` 到 `config.json` 所在目录。运行 `ssserver`。如果想在后台一直运行，
-`nohup ssserver > log &`.
+在服务器上运行 `ssserver -c /etc/shadowsocks.json`。如果要在后台运行，
+[请使用 supervisor][8].
 
-同样的，在你自己本地的机器上运行 `sslocal`.
+在本地运行 `sslocal -c /etc/shadowsocks.json`。
 
-然后把浏览器代理改为如下即可：
+把浏览器的代理设为：
 
-    协议： socks5
-    地址： 127.0.0.1
-    端口： 刚才填的 local_port
+    协议: socks5
+    地址: 127.0.0.1
+    端口: 你填的 local_port
 
-注意，如果选择 "table" 之外的加密，需要安装 M2Crypto（见后面“加密”一节）。
-
-推荐配合 AutoProxy 或者 Proxy SwitchySharp 一起使用。
+推荐配合 AutoProxy 或者 Proxy SwitchySharp 使用 Shadowsocks。
 
 命令行参数
------------
+---------
 
-可以用命令行参数覆盖 `config.json` 里的设置：
+你可以用命令行参数覆盖 `config.json` 中的设置：
 
-    sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法
-    ssserver -p 服务器端口 -k 密码 -m 加密方法
+    sslocal -s server_name -p server_port -l local_port -k password -m bf-cfb
+    ssserver -p server_port -k password -m bf-cfb --workers 2
     ssserver -c /etc/shadowsocks/config.json
 
-加密
+gevent
+------
+
+如果你遇到一些奇怪的问题，如果你装的是 gevent 0.9.x, 更新到最新版，或者卸掉 gevent。
+
+    pip install gevent --upgrade
+
+Wiki
 ----
 
-默认加密方法 table 速度很快，但很不安全。推荐使用 "aes-256-cfb" 或者 "bf-cfb"。请不要使用 "rc4"，它不安全。
-
-可选的加密方式：
-
-- aes-128-cfb
-- aes-192-cfb
-- aes-256-cfb
-- bf-cfb
-- camellia-128-cfb
-- camellia-192-cfb
-- camellia-256-cfb
-- cast5-cfb
-- des-cfb
-- idea-cfb
-- rc2-cfb
-- rc4
-- seed-cfb
-- table
-
-如果想使用 table 之外的加密方法，要先安装 [M2Crypto](http://chandlerproject.org/Projects/MeTooCrypto).
-
-
-Ubuntu:
-
-    apt-get install python-m2crypto
-
-Debian:
-
-    apt-get install libssl-dev swig
-    pip install M2Crypto
-
-openSUSE:
-
-    zypper in python-m2crypto
-
-其它系统:
-
-    apt-get install openssl-dev swig
-    pip install M2Crypto
-
-注意，在有些系统上其中一些加密方法可能不可用。
-
-性能
-------------
-
-安装 gevent 可以提高 Shadowsocks 的性能：
-
-    $ sudo apt-get install python-gevent
-
-或者：
-
-    $ sudo apt-get install libevent-dev python-pip
-    $ sudo pip install gevent
+https://github.com/clowwindy/shadowsocks/wiki
 
 协议
--------
+----
 MIT
 
-Bugs and Issues
-----------------
-请访问 [issue tracker](https://github.com/clowwindy/shadowsocks/issues?state=open)
+问题反馈
+--------
+请访问 [issue tracker][5]
 
-邮件列表: http://groups.google.com/group/shadowsocks
+邮件列表： http://groups.google.com/group/shadowsocks
 
-[常见问题](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting)
+[常见问题][6]
+
+[0]: https://travis-ci.org/clowwindy/shadowsocks
+[1]: https://travis-ci.org/clowwindy/shadowsocks.png?branch=master
+[2]: https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open
+[3]: https://github.com/clowwindy/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
+[4]: http://chandlerproject.org/Projects/MeTooCrypto
+[5]: https://github.com/clowwindy/shadowsocks/issues?state=open
+[6]: https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting
+[7]: https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients
+[8]: https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor
