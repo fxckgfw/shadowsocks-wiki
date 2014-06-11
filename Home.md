@@ -4,6 +4,7 @@
 - [Using Shadowsocks with Command Line Tools](https://github.com/clowwindy/shadowsocks/wiki/Using-Shadowsocks-with-Command-Line-Tools)
 - [Setup a Shadowsocks relay](https://github.com/clowwindy/shadowsocks/wiki/Setup-a-Shadowsocks-relay)
 - [Optimizing](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)
+- [Salsa20](https://github.com/clowwindy/shadowsocks/wiki/Salsa20)
 - [TCP Fast Open](https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open)
 - [中文手册](https://github.com/clowwindy/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 - [Troubleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting)
