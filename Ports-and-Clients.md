@@ -1,19 +1,5 @@
 Feel free to add to this list.
 
-<a id="server-side"></a>
-#### Server side
-
-* [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
-* [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
-* [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
-* [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
-* [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
-* [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
-* [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
-* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
-* [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
-* [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version. **Not compatible with other versions**
-
 #### Windows
 
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
@@ -40,6 +26,21 @@ Feel free to add to this list.
 
 * [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
 * [fqrouter](https://github.com/fqrouter/fqrouter)
+
+<a id="server-side"></a>
+
+#### Server side
+
+* [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
+* [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
+* [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
+* [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
+* [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
+* [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
+* [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
+* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
+* [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
+* [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version. **Not compatible with other versions**
 
 #### Router devices
 
