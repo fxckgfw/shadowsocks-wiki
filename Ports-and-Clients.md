@@ -12,6 +12,7 @@ Feel free to add to this list.
 * [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
 * [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
+* [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version. **Not compatible with other versions**
 
 #### Windows
 
