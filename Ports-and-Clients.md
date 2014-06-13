@@ -54,3 +54,4 @@ Feel free to add to this list.
 * [cow](https://github.com/cyfdecyf/cow) - Powerful HTTP proxy, detecting blocked sites automatically
 * [pobi](https://github.com/jackyz/pobi)
 * [lightsocks](https://github.com/clowwindy/lightsocks) - Transparent TCP proxy
+* [ShadowDNS](https://github.com/clowwindy/ShadowDNS)
