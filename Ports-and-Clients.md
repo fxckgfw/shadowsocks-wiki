@@ -9,27 +9,10 @@ Feel free to add to this list.
 #### OS X
 
 * [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Native Shadowsocks for Mac
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
 * [GoAgentX](https://github.com/ohdarling/GoAgentX) - OSX client, with GUI
-
-#### Linux
-
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
-* Or use command line versions in <a href="#server-side">Server side</a>
 
-#### iOS
-
-* [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) - All devices, web browser, global proxy with some restrictions
-* [MobileShadowSocks](https://github.com/linusyang/MobileShadowSocks) - Jailbroken devices only, global proxy with no restriction
-
-#### Android
-
-* [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
-* [fqrouter](https://github.com/fqrouter/fqrouter)
-
-<a id="server-side"></a>
-
-#### Server side
+#### Linux / Server side
 
 * [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
 * [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
@@ -41,6 +24,18 @@ Feel free to add to this list.
 * [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
 * [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version. **Not compatible with other versions**
+
+#### iOS
+
+* [MobileShadowSocks](https://github.com/linusyang/MobileShadowSocks) - Recommended for jailbroken devices, global proxy with no restriction
+* [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) - All devices, web browser, global proxy **with some restrictions**
+
+#### Android
+
+* [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
+* [fqrouter](https://github.com/fqrouter/fqrouter)
+
+<a id="server-side"></a>
 
 #### Router devices
 
