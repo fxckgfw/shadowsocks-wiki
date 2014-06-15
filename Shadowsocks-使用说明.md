@@ -5,6 +5,10 @@
 安装方法
 -------
 
+你需要在本地装一个客户端，在远程服务器上搭一个服务端。
+
+对于客户端，选一个[图形界面版本]就行。对于服务端：
+
 #### Debian / Ubuntu:
 
     apt-get install python-pip python-m2crypto
@@ -23,10 +27,6 @@
     cd M2Crypto
     pip install .
     pip install shadowsocks
-
-#### Windows:
-
-选一个 [图形客户端]。
 
 使用方法
 -------
@@ -101,7 +101,7 @@ MIT
 
 
 [构建状态]:        https://img.shields.io/travis/clowwindy/shadowsocks/master.svg?style=flat
-[图形客户端]:      https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients
+[图形界面版本]:    https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients
 [Issue Tracker]:  https://github.com/clowwindy/shadowsocks/issues?state=open
 [PyPI]:           https://pypi.python.org/pypi/shadowsocks
 [PyPI 版本]:       https://img.shields.io/pypi/v/shadowsocks.svg?style=flat
