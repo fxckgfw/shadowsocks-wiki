@@ -110,7 +110,7 @@ MIT
 [Issue Tracker]:  https://github.com/clowwindy/shadowsocks/issues?state=open
 [PyPI]:           https://pypi.python.org/pypi/shadowsocks
 [PyPI 版本]:       https://img.shields.io/pypi/v/shadowsocks.svg?style=flat
-[Supervisor]:     https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor
+[Supervisor]:     https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks
 [TCP_FASTOPEN]:   https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open
 [Travis CI]:      https://travis-ci.org/clowwindy/shadowsocks
 [常见问题]:        https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting
