@@ -1,1 +1,1 @@
-[Wiki Home](https://github.com/clowwindy/shadowsocks/wiki)
+- [Wiki Home](https://github.com/clowwindy/shadowsocks/wiki)
