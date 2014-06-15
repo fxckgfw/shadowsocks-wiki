@@ -21,6 +21,7 @@ Shadowsocks is a fast tunnel proxy that help you get through firewalls.
     * [Setup a Shadowsocks Relay](https://github.com/clowwindy/shadowsocks/wiki/Setup-a-Shadowsocks-relay)
     * Using [Salsa20](https://github.com/clowwindy/shadowsocks/wiki/Salsa20) Encryption
     * [TCP Fast Open](https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open)
+    * [Forcing Chrome to Use Socks5 Proxy](https://github.com/clowwindy/shadowsocks/wiki/Forcing-Chrome-to-Use-Socks5-Proxy)
 
 ### Latest Release
 
