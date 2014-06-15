@@ -18,7 +18,7 @@ Edit `/etc/shadowsocks.json`
 Run
 ```
 apt-get update
-apt-get install python-pip python-m2crypto python-gevent supervisor
+apt-get install python-pip python-m2crypto supervisor
 pip install shadowsocks
 ```
 
