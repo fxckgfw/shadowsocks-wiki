@@ -8,6 +8,7 @@ Shadowsocks is a fast tunnel proxy that help you get through firewalls.
     * [Readme]
     * [中文手册][Chinese Readme]
 - [List of Ports and clients](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients)
+- [Optimizing Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)
 - Advanced Usage
     * [Configure Shadowsocks with Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor)
     * [Convert Shadowsocks into an HTTP proxy](https://github.com/clowwindy/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy)
@@ -15,7 +16,6 @@ Shadowsocks is a fast tunnel proxy that help you get through firewalls.
     * [Setup a Shadowsocks Relay](https://github.com/clowwindy/shadowsocks/wiki/Setup-a-Shadowsocks-relay)
     * Using [Salsa20](https://github.com/clowwindy/shadowsocks/wiki/Salsa20) encryption
     * [TCP Fast Open](https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open)
-- [Optimizing Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)
 
 ### Latest Release
 
