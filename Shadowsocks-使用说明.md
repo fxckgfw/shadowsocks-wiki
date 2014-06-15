@@ -73,6 +73,8 @@ Chrome 推荐使用 [SwitchySharp] 切换代理设置。把浏览器代理设为
 
     Chrome.exe --proxy-server="socks5://127.0.0.1:1080" --host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE localhost"
 
+如果连 Chrome 都无法下载，找人帮你下一个 [Chrome 离线安装包]。
+
 命令行参数
 ---------
 
@@ -117,3 +119,4 @@ MIT
 [Travis CI]:      https://travis-ci.org/clowwindy/shadowsocks
 [常见问题]:        https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting
 [SwitchySharp]:    https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm
+[Chrome 离线安装包]: https://support.google.com/installer/answer/126299?hl=zh-Hans
