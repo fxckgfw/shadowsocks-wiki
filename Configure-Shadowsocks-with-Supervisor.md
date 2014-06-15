@@ -1,4 +1,4 @@
-If you want to run Shadowsocks in the background, use [supervisor](http://supervisord.org/index.html).
+If you want to run Shadowsocks in the background, use supervisor.
 
 Here is an example of running shadowsocks with supervisor on Debian 7.0:
 
