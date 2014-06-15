@@ -15,7 +15,7 @@ Shadowsocks is a fast tunnel proxy that help you get through firewalls.
     * [OpenWRT](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#openwrt)
 - [Optimizing Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)
 - Advanced Usage
-    * [Run Shadowsocks in the Background](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor)
+    * [Run Shadowsocks in the Background](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor) [（中文版：后台运行 Shadowsocks）](https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks)
     * [Convert Shadowsocks into an HTTP proxy](https://github.com/clowwindy/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy)
     * [Using Shadowsocks with Command Line Tools](https://github.com/clowwindy/shadowsocks/wiki/Using-Shadowsocks-with-Command-Line-Tools)
     * [Setup a Shadowsocks Relay](https://github.com/clowwindy/shadowsocks/wiki/Setup-a-Shadowsocks-relay)
