@@ -36,7 +36,7 @@ Feel free to add to this list.
 
 <a id="server-side"></a>
 
-#### Router devices
+#### OpenWRT
 
 * [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
 
