@@ -1,0 +1,1 @@
+[Wiki Home](https://github.com/clowwindy/shadowsocks/wiki)
