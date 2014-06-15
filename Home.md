@@ -5,16 +5,16 @@ Shadowsocks is a fast tunnel proxy that help you get through firewalls.
 ### Quick Navigation
 
 - Readme
-    * [Readme]
-    * [中文手册][Chinese Readme]
+    * [Tutorial]
+    * [中文教程][Chinese Readme]
 - [List of Ports and clients](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients)
 - [Optimizing Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)
 - Advanced Usage
-    * [Configure Shadowsocks with Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor)
+    * [Run Shadowsocks in the Background](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor)
     * [Convert Shadowsocks into an HTTP proxy](https://github.com/clowwindy/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy)
     * [Using Shadowsocks with Command Line Tools](https://github.com/clowwindy/shadowsocks/wiki/Using-Shadowsocks-with-Command-Line-Tools)
     * [Setup a Shadowsocks Relay](https://github.com/clowwindy/shadowsocks/wiki/Setup-a-Shadowsocks-relay)
-    * Using [Salsa20](https://github.com/clowwindy/shadowsocks/wiki/Salsa20) encryption
+    * Using [Salsa20](https://github.com/clowwindy/shadowsocks/wiki/Salsa20) Encryption
     * [TCP Fast Open](https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open)
 
 ### Latest Release
@@ -36,7 +36,7 @@ Make sure to read [Contribute to Shadowsocks](https://github.com/clowwindy/shado
 [Mailing list]:     http://groups.google.com/group/shadowsocks
 [PyPI]:             https://pypi.python.org/pypi/shadowsocks
 [PyPI version]:     https://img.shields.io/pypi/v/shadowsocks.svg?style=flat
-[Readme]:           https://github.com/clowwindy/shadowsocks/blob/master/README.md
+[Tutorial]:           https://github.com/clowwindy/shadowsocks/blob/master/README.md
 [Supervisor]:       https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor
 [TCP_FASTOPEN]:     https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open
 [Travis CI]:        https://travis-ci.org/clowwindy/shadowsocks
