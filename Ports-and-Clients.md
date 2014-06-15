@@ -15,9 +15,9 @@ Feel free to add to this list.
 #### Linux / Server side
 
 * [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
-* [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
-* [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
 * [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
+* [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
+* [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
 * [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
 * [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
 * [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
@@ -49,6 +49,6 @@ Feel free to add to this list.
 #### Other clients
 
 * [cow](https://github.com/cyfdecyf/cow) - Powerful HTTP proxy, detecting blocked sites automatically
-* [pobi](https://github.com/jackyz/pobi)
+* [ShadowDNS](https://github.com/clowwindy/ShadowDNS) - DNS Forwarder powered by Shadowsocks
 * [lightsocks](https://github.com/clowwindy/lightsocks) - Transparent TCP proxy
-* [ShadowDNS](https://github.com/clowwindy/ShadowDNS)
+* [pobi](https://github.com/jackyz/pobi)
