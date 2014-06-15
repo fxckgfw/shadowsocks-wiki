@@ -1,6 +1,6 @@
 On Debian 7:
 
-Create /etc/sysctl.d/local.conf with the following content:
+Create `/etc/sysctl.d/local.conf` with the following content:
 
 ```
 fs.file-max = 51200
