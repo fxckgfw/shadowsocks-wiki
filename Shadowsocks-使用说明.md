@@ -29,7 +29,7 @@
 服务器配置
 ---------
 
-服务端安装好以后，创建一个配置文件 `/etc/shadowsocks.json` (或者放在别的目录下)。
+服务端安装好以后，创建一个配置文件 `/etc/shadowsocks.json`。
 示例：
 
     {
@@ -63,13 +63,15 @@
 
 在本地，用图形客户端进行相应配置并运行客户端。
 
-把浏览器的代理设为下列参数即可。
+Chrome 推荐使用 [SwitchySharp] 切换代理设置。把浏览器代理设为下列参数即可：
 
     协议: socks5
     地址: 127.0.0.1
     端口: 你填的 local_port
 
-推荐配合 [SwitchySharp] 使用 Shadowsocks。
+如果无法安装 [SwitchySharp]，可以先用下列参数启动 Chrome，强制它使用代理：
+
+    Chrome.exe --proxy-server="socks5://127.0.0.1:1080" --host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE localhost"
 
 命令行参数
 ---------
