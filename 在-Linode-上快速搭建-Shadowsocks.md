@@ -31,7 +31,7 @@ shadowsocks                      RUNNING    pid 6929, uptime 0:01:25
     "server":"0.0.0.0",
     "server_port":4762,
     "local_port":1080,
-    "password":"7f2aa2fef57d8414",
+    "password":"8d779a1ee2db776db8e20adffaa12d0c",
     "timeout":300,
     "method":"aes-256-cfb"
 }
