@@ -27,7 +27,7 @@ net.ipv4.tcp_congestion_control = hybla
 
 Then:
 
-    sysctl -p
+    sysctl --system
 
 Warning: **DO NOT ENABLE `net.ipv4.tcp_tw_recycle`!!!** See [this article](http://vincent.bernat.im/en/blog/2014-tcp-time-wait-state-linux.html).
 
