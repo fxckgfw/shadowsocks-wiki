@@ -1,4 +1,4 @@
-如果你已经建了一个 Debian 7.0+ 节点，执行下列命令并跳到步骤 6。
+如果你已经建了一个 Debian 7.0+ 节点，在节点上执行下列命令并跳到步骤 6。
 ```
 apt-get install curl
 curl 'https://raw.githubusercontent.com/shadowsocks/stackscript/master/stackscript.sh?v=4' | bash
