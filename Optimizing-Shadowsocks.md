@@ -38,3 +38,7 @@ After optimizing, Shadowsocks should be able to handle thousands of connections 
 ![fw_conntrack-day](https://cloud.githubusercontent.com/assets/1073082/3280285/57f68cb0-f454-11e3-99dc-ad0ad39dce48.png)
 
 ![cpu-day](https://cloud.githubusercontent.com/assets/1073082/3280292/c4371598-f454-11e3-9241-26b5a5f5502b.png)
+
+Before & after:
+
+![cc](https://cloud.githubusercontent.com/assets/1073082/3296349/10c34b04-f5d9-11e3-95fc-e38f5299c274.jpg)
