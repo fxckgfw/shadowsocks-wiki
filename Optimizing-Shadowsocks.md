@@ -35,7 +35,7 @@ Then:
 
 Warning: **DO NOT ENABLE `net.ipv4.tcp_tw_recycle`!!!** See [this article](http://vincent.bernat.im/en/blog/2014-tcp-time-wait-state-linux.html).
 
-If you use [Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor), Make sure you have the following line in `/etc/default/supervisor`. Once you added that line, restart Supervisor (service stop supervisor && service start supervisor).
+If you use [Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor), Make sure you have the following line in `/etc/default/supervisor`. Once you added that line, restart Supervisor (`service stop supervisor && service start supervisor`).
 
 ```
 ulimit -n 51200
