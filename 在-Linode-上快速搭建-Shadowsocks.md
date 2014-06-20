@@ -36,3 +36,5 @@ shadowsocks                      RUNNING    pid 6929, uptime 0:01:25
     "method":"aes-256-cfb"
 }
 ```
+
+注：使用本安装脚本会自动[优化系统参数](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)。
