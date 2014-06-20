@@ -1,5 +1,7 @@
 On Debian 7:
 
+If you see a lot of `error: too many open files` in your log, you should optimize your system.
+
 Create `/etc/sysctl.d/local.conf` with the following content:
 
 ```
@@ -32,6 +34,14 @@ Then:
     sysctl --system
 
 Warning: **DO NOT ENABLE `net.ipv4.tcp_tw_recycle`!!!** See [this article](http://vincent.bernat.im/en/blog/2014-tcp-time-wait-state-linux.html).
+
+If you use [Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor), Make sure you have the following line in `/etc/default/supervisor`. Once you added that line, restart Supervisor.
+
+```
+ulimit -n 51200
+```
+
+If you use other ways to run shadowsocks in the background, make sure to add `ulimit -n 51200` in your init script.
 
 After optimizing, Shadowsocks should be able to handle thousands of connections with about 20MB memory and < 10% CPU.
 
