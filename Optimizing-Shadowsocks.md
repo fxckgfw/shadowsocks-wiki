@@ -1,6 +1,7 @@
-On Debian 7:
-
 If you see a lot of `error: too many open files` in your log, you should optimize your system.
+This tutorial applies to all shadowsocks servers (Python, libev, etc).
+
+On Debian 7:
 
 Create `/etc/sysctl.d/local.conf` with the following content:
 
