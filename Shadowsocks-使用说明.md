@@ -97,9 +97,9 @@ MIT
 
 问题反馈
 --------
-[常见问题]
-[邮件列表]
-[Issue Tracker]
+* [常见问题]
+* [邮件列表]
+* [Issue Tracker]
 
 
 [Windows]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#windows
