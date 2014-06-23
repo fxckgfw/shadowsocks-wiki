@@ -97,11 +97,9 @@ MIT
 
 问题反馈
 --------
-请访问 [Issue Tracker]
-
-邮件列表： http://groups.google.com/group/shadowsocks
-
 [常见问题]
+[邮件列表]
+[Issue Tracker]
 
 
 [Windows]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#windows
@@ -118,5 +116,6 @@ MIT
 [TCP_FASTOPEN]:   https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open
 [Travis CI]:      https://travis-ci.org/clowwindy/shadowsocks
 [常见问题]:        https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting
+[邮件列表]:        http://groups.google.com/group/shadowsocks
 [SwitchySharp]:    https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm
 [Chrome 离线安装包]: https://support.google.com/installer/answer/126299?hl=zh-Hans
