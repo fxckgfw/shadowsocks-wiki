@@ -1,7 +1,7 @@
 也适用于除了 Linode 之外的所有 Xen 的 Deiban 7 VPS。如果你已经建了一个 Debian 7.0+ 节点，在节点上执行下列命令并跳到步骤 6。
 ```
 apt-get install curl
-curl 'https://raw.githubusercontent.com/shadowsocks/stackscript/master/stackscript.sh?v=4' | bash
+curl 'https://raw.githubusercontent.com/shadowsocks/stackscript/master/stackscript.sh?v=4' > /tmp/ss.sh && bash /tmp/ss.sh && rm /tmp/ss.sh
 ```
 
 如果你没有创建节点：
