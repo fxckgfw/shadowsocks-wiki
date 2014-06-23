@@ -35,9 +35,9 @@ Shadowsocks is a fast tunnel proxy that help you get through firewalls.
 
 Make sure to read [Contribute to Shadowsocks](https://github.com/clowwindy/shadowsocks/blob/master/CONTRIBUTING.md) first before you submit issues or ask questions.
 
-- [Issue Tracker]
-- [Mailing list]
 - [Troubleshooting]
+- [Mailing list]
+- [Issue Tracker]
 
 
 [Build Status]:     https://img.shields.io/travis/clowwindy/shadowsocks/master.svg?style=flat
