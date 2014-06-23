@@ -1,8 +1,7 @@
 If you already created a Linode with Debian 7.0+, run the following and skip to Step 6.
 ```
 apt-get install curl
-curl 'https://raw.githubusercontent.com/shadowsocks/stackscript/master/stackscript.sh?v=4' | bash
-```
+curl 'https://raw.githubusercontent.com/shadowsocks/stackscript/master/stackscript.sh?v=4' > /tmp/ss.sh && bash /tmp/ss.sh && rm /tmp/ss.sh```
 
 If you didn't, do the following:
 
