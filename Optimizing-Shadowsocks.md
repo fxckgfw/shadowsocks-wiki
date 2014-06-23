@@ -46,11 +46,13 @@ If you use other ways to run shadowsocks in the background, make sure to add `ul
 
 After optimizing, Shadowsocks should be able to handle thousands of connections with about 20MB memory and < 10% CPU.
 
-![if_eth0-day](https://cloud.githubusercontent.com/assets/1073082/3280283/2fc1c782-f454-11e3-8cec-75e1615e6ca8.png)
+![if_eth0-day](https://cloud.githubusercontent.com/assets/1073082/3358558/2a18bc5a-fadf-11e3-96c3-473c42f1a3a3.png)
 
-![fw_conntrack-day](https://cloud.githubusercontent.com/assets/1073082/3280285/57f68cb0-f454-11e3-99dc-ad0ad39dce48.png)
+![fw_conntrack-day](https://cloud.githubusercontent.com/assets/1073082/3358559/2bf8662e-fadf-11e3-8039-3d59bf689fe2.png)
 
-![cpu-day](https://cloud.githubusercontent.com/assets/1073082/3280292/c4371598-f454-11e3-9241-26b5a5f5502b.png)
+![cpu-day](https://cloud.githubusercontent.com/assets/1073082/3358579/53951d80-fadf-11e3-8e6b-0ceed96950e2.png)
+
+![proc_mem-day](https://cloud.githubusercontent.com/assets/1073082/3358599/87c98c08-fadf-11e3-9fc9-949f4061d2ca.png)
 
 Before & after:
 
