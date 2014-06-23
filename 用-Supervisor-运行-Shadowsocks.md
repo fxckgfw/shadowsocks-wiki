@@ -30,6 +30,7 @@ command=ssserver -c /etc/shadowsocks.json
 autorestart=true
 user=nobody
 ```
+如果端口 < 1024，把上面的 user=nobody 改成 user=root。
 
 在 `/etc/default/supervisor` 最后加一行：
 
