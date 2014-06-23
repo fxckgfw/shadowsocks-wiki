@@ -1,14 +1,17 @@
-* With the proxy set, I failed to load some websites, while the other websites seem OK  
-    Check the logs of local.py. If you only find IP addresses instead of hostnames, your may be suffering DNS spoofing. Your should configure your browser to let the proxy resolve server names.  
-    To configure DNS properly, you can simply install **ProxySwitchy or SwitchySharp for 
-    Chrome, FoxyProxy or Autoproxy for Firefox**. They will configure your browser automatically.  
-    Or you can change network.proxy.socks_remote_dns into true in about:config page if you use Firefox.
-* I can't load any websites, and the log prints `mode != 1`  
-    Make sure proxy protocol is set to Socks5, not Socks4 or HTTP.
-* I use IE and I can't get my proxy to work    
-    Since you can't specify Socks4 or Socks5 in IE settings, you may want to use a PAC (Proxy auto-config) script, or 
-    just use Chrome instead.
-* (Nodejs version) When I use AES-256-CFB, I got some logs like `unsupported addrtype: 115`.  
-    Upgrade your nodejs to the latest version.
+出现问题时，请按下列步骤确定和诊断问题：
 
-If you have other problems, feel free to post questions to our [mailing list](http://groups.google.com/group/shadowsocks).
+1. 先确定是本地的问题，还是服务端的问题。可以通过更换服务端（比如用别人的或者公共服务器），比如更换本地端（分别用手机和电脑测试）。
+2. 查看本地端的日志来诊断本地端有没有收到请求。
+3. 查看服务端的日志来诊断服务端有没有收到请求。
+4. 如果本地端没有收到请求，检查浏览器代理设置，检查本地防火墙。如果日志中只有 IP 没有域名，确保你本地做了防 DNS 污染，否则就配置浏览器远程解析域名。
+5. 如果服务端没有收到请求，检查服务器防火墙，在本地用 tcping 等端口扫描工具检查服务器端口有没有打开。
+6. 如果服务端收到了请求，但浏览器没有载入内容，检查服务端的 DNS `/etc/resolv.conf`，改为 `8.8.8.8` 再重启服务端。
+
+When you have problems, follow the steps below to diagnose:
+
+1. Check whether the problem is caused by client or server. Replace your server with public server and check again; replace your client with others like mobile or another client version.
+2. Check client logs to see if the client received requests from your browser.
+3. Check server logs to see if the server received requests from your client.
+4. If the client did not receive any requests, check proxy settings and local firewall.
+5. If the server did not receive any requests, check server firewall and use `tcping` to check server port.
+6. If the server received requests but your browser got no responses, check the DNS on your server. Change it into `8.8.8.8`, restart your server and test again.
