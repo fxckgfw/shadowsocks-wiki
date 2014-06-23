@@ -1,4 +1,4 @@
-如果你想在后台运行 Shadowsocks，可以使用 supervisor。
+如果你想在后台运行 Shadowsocks，可以使用 Supervisor，它可以方便地监控和控制任何程序，实现开机自动启动和后台运行。
 
 以 Debian 7.0 为例：
 
@@ -50,3 +50,5 @@ supervisorctl reload
 supervisorctl tail -f shadowsocks stderr
 supervisorctl restart shadowsocks
 ```
+
+如果更新了 Supervisor 的配置文件（`/etc/supervisor.d/*.conf`），可以 `supervisorctl update` 来更新配置。
