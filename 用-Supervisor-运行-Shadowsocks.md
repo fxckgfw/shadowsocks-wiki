@@ -1,6 +1,6 @@
 如果你想在后台运行 Shadowsocks，可以使用 Supervisor，它可以方便地监控和控制任何程序，实现开机自动启动和后台运行。
 
-下面是 Debian 和 Ubuntu 上的配置方法（如果你是 Linux 新手，不需要 SELinux，也不了解防火墙配置，也弄不清楚 RHEL 和 CentOS 的版本机制，那就用 Debian 吧，别折腾了。
+下面是 Debian 和 Ubuntu 上的配置方法（如果你是 Linux 新手，不需要 SELinux，也不了解防火墙配置，也弄不清楚 RHEL 和 CentOS 的版本机制，那就用 Debian 或 Ubuntu 吧，别折腾了。
 ）：
 
 执行
