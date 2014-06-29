@@ -44,7 +44,8 @@ ulimit -n 51200
 
 If you use other ways to run shadowsocks in the background, make sure to add `ulimit -n 51200` in your init script.
 
-After optimizing, Shadowsocks should be able to handle thousands of connections with about 30MB memory and 10% CPU.
+After optimizing, a busy Shadowsocks server that handles thousands of connections, takes about 30MB memory and 10% CPU. Notice that at the same time, **Linux kernel usually uses >100MB RAM** to hold buffer and cache for those connections. If you want to use less RAM, 
+reduce the size of rmem and wmem.
 
 ![if_eth0-day](https://cloud.githubusercontent.com/assets/1073082/3358558/2a18bc5a-fadf-11e3-96c3-473c42f1a3a3.png)
 
