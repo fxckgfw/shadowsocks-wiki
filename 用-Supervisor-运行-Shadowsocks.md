@@ -54,7 +54,8 @@ supervisorctl reload
     supervisorctl tail -f shadowsocks stderr
 
 
-如果修改了 shadowsocks 配置 `/etc/shadowsocks.json`，可以重启：
+如果修改了 shadowsocks 配置 `/etc/shadowsocks.json`，
+可以重启 shadowsocks：
 
     supervisorctl restart shadowsocks
 
