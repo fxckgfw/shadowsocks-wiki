@@ -2,14 +2,14 @@
 
 下面是 Debian 和 Ubuntu 上的配置方法（如果你是 Linux 新手，不需要 SELinux，也不了解防火墙配置，也弄不清楚 RHEL 和 CentOS 的版本机制，那就用 Debian 或 Ubuntu 吧，别折腾了）：
 
-执行
+- 1. 执行
 ```
 apt-get update
 apt-get install python-pip python-m2crypto supervisor
 pip install shadowsocks
 ```
 
-编辑 `/etc/shadowsocks.json`
+- 2. 编辑 `/etc/shadowsocks.json`
 
 ```
 {
@@ -22,7 +22,7 @@ pip install shadowsocks
 }
 ```
 
-编辑 `/etc/supervisor/conf.d/shadowsocks.conf`
+- 3. 编辑 `/etc/supervisor/conf.d/shadowsocks.conf`
 
 ```
 [program:shadowsocks]
@@ -32,13 +32,13 @@ user=nobody
 ```
 如果端口 < 1024，把上面的 user=nobody 改成 user=root。
 
-在 `/etc/default/supervisor` 最后加一行：
+- 4. 在 `/etc/default/supervisor` 最后加一行：
 
 ```
 ulimit -n 51200
 ```
 
-执行
+- 5. 执行
 ```
 service supervisor start
 supervisorctl reload
