@@ -13,7 +13,7 @@ pip install shadowsocks
 
 ```
 {
-    "server":"my ip",
+    "server":"0.0.0.0",
     "server_port":8388,
     "local_port":1080,
     "password":"my password",
@@ -21,7 +21,7 @@ pip install shadowsocks
     "method":"aes-256-cfb"
 }
 ```
-记得改密码和端口，不要用默认的。
+记得改密码和服务端端口，不要用默认的。
 
 - 3. 编辑 `/etc/supervisor/conf.d/shadowsocks.conf`
 
