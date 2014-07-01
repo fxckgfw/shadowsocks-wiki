@@ -2,8 +2,8 @@
 它可以方便地监控和控制任何程序，实现开机自动启动和后台运行。
 
 下面是 Debian 和 Ubuntu 上的配置方法（如果你是 Linux 新手，
-不需要 SELinux，也不了解防火墙配置，也弄不清楚 RHEL 和
-CentOS 的版本机制，那就用 Debian 或 Ubuntu 吧，别折腾了）：
+不需要 [SELinux]，也不了解[防火墙配置]，也弄不清楚 RHEL 和
+CentOS 的[版本机制]，那就用 Debian 或 Ubuntu 吧，别折腾了）：
 
 - 1. 执行
 ```
@@ -63,3 +63,7 @@ supervisorctl reload
 可以更新 supervisor 配置：
 
     supervisorctl update
+
+[SELinux]: http://wiki.centos.org/HowTos/SELinux
+[防火墙配置]: https://github.com/clowwindy/shadowsocks/issues/133
+[版本机制]: http://wiki.centos.org/FAQ/General#head-6e2c3746ec45ac3142917466760321e868f43c0e
