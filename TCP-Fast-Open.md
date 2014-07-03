@@ -7,4 +7,4 @@ Turn on fast open on your OS temporarily:
 
 To turn on fast open permanently, see [Optimizing Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks).
 
-Then set fast_open to true in your config.json.
+Then set `fast_open` to `true` in your config.json.
