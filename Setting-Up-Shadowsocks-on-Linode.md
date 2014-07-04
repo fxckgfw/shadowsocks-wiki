@@ -1,4 +1,4 @@
-If you already created a Linode with Debian 7.0+, run the following and skip to Step 6.
+If you already created a [Linode] with Debian 7.0+, run the following and skip to Step 6.
 ```
 apt-get install curl
 curl 'https://raw.githubusercontent.com/shadowsocks/stackscript/master/stackscript.sh?v=4' > /tmp/ss.sh && bash /tmp/ss.sh && rm /tmp/ss.sh
@@ -30,3 +30,5 @@ shadowsocks                      RUNNING    pid 6929, uptime 0:01:25
     "method":"aes-256-cfb"
 }
 ```
+
+[Linode]: https://www.linode.com/?r=e7932c8b03f9abc8aab71663b90b689a676402d1
