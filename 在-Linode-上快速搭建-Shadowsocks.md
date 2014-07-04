@@ -38,3 +38,8 @@ shadowsocks                      RUNNING    pid 6929, uptime 0:01:25
 ```
 
 注：使用本安装脚本会自动[优化系统参数](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)。不过其中 hybla 算法的优化需要[更换内核](https://library.linode.com/custom-instances/pv-grub-howto#sph_debian-7-wheezy)后才能生效。
+
+如果注册 [Linode] 可点[本邀请链接]，Linode 将会返还 credit 到公共服务器上。
+
+[Linode]: https://www.linode.com/?r=e7932c8b03f9abc8aab71663b90b689a676402d1
+[本邀请链接]: https://www.linode.com/?r=e7932c8b03f9abc8aab71663b90b689a676402d1
