@@ -17,7 +17,7 @@ pip install shadowsocks
 ```
 {
     "server":"0.0.0.0",
-    "server_port":8388,
+    "server_port":7325,
     "local_port":1080,
     "password":"my password",
     "timeout":600,
