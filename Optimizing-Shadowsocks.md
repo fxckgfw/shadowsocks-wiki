@@ -10,8 +10,8 @@ fs.file-max = 51200
 
 net.core.rmem_max = 67108864
 net.core.wmem_max = 67108864
-net.core.rmem_default=65536
-net.core.wmem_default=65536
+net.core.rmem_default = 65536
+net.core.wmem_default = 65536
 net.core.netdev_max_backlog = 4096
 net.core.somaxconn = 4096
 
