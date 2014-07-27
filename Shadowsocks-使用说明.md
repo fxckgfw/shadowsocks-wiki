@@ -103,9 +103,9 @@ MIT
 
 
 [Windows]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#windows
-[OS X]:           https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#os-x
+[OS X]:           https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9
 [Android]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#android
-[iOS]:            https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#ios
+[iOS]:            https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
 [OpenWRT]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#openwrt
 [构建状态]:        https://img.shields.io/travis/clowwindy/shadowsocks/master.svg?style=flat
 [图形界面版本]:    https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients
