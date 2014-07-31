@@ -46,6 +46,7 @@ Feel free to add to this list.
 * [shadowsocks-ruby](https://github.com/clowwindy/shadowsocks-ruby) Ruby version
 * [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
 * [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version
+* [https://github.com/apporc/shadowsocks-gtk] - Python GTK version
 
 #### Other clients
 
