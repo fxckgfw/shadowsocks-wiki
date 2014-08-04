@@ -39,7 +39,7 @@ Feel free to add to this list.
 #### OpenWrt
 
 * [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
-* [shadowsocks-tiny](https://github.com/zhao-gang/shadowsocks-tiny) - well intergrated with OpenWrt
+* [shadowsocks-tiny](https://github.com/zhao-gang/shadowsocks-tiny) - well integrated with OpenWrt
 
 #### Experimental
 
