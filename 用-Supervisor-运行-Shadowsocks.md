@@ -5,49 +5,49 @@
 不需要 [SELinux]，也不了解[防火墙配置]，也弄不清楚 RHEL 和
 CentOS 的[版本机制]，那就用 Debian 或 Ubuntu 吧，别折腾了）：
 
-- 1. 执行
-```
-apt-get update
-apt-get install python-pip python-m2crypto supervisor
-pip install shadowsocks
-```
+1. 执行
+    ```
+    apt-get update
+    apt-get install python-pip python-m2crypto supervisor
+    pip install shadowsocks
+    ```
 
-- 2. 编辑 `/etc/shadowsocks.json`
+2. 编辑 `/etc/shadowsocks.json`
 
-```
-{
-    "server":"0.0.0.0",
-    "server_port":7325,
-    "local_port":1080,
-    "password":"my password",
-    "timeout":600,
-    "method":"aes-256-cfb"
-}
-```
-记得改密码和服务端端口，不要用默认的。
+    ```
+    {
+        "server":"0.0.0.0",
+        "server_port":7325,
+        "local_port":1080,
+        "password":"my password",
+        "timeout":600,
+        "method":"aes-256-cfb"
+    }
+    ```
+    记得改密码和服务端端口，不要用默认的。
 
-- 3. 编辑 `/etc/supervisor/conf.d/shadowsocks.conf`
+3. 编辑 `/etc/supervisor/conf.d/shadowsocks.conf`
 
-```
-[program:shadowsocks]
-command=ssserver -c /etc/shadowsocks.json
-autorestart=true
-user=nobody
-```
-如果端口 < 1024，把上面的 user=nobody 改成 user=root。
+    ```
+    [program:shadowsocks]
+    command=ssserver -c /etc/shadowsocks.json
+    autorestart=true
+    user=nobody
+    ```
+    如果端口 < 1024，把上面的 user=nobody 改成 user=root。
 
-- 4. 在 `/etc/default/supervisor` 最后加一行：
+4. 在 `/etc/default/supervisor` 最后加一行：
 
-```
-ulimit -n 51200
-```
+    ```
+    ulimit -n 51200
+    ```
 
-- 5. 执行
-```
-service supervisor start
-supervisorctl reload
-```
-就好了。
+5. 执行
+    ```
+    service supervisor start
+    supervisorctl reload
+    ```
+    就好了。
 
 如果遇到问题，可以检查日志：
 
