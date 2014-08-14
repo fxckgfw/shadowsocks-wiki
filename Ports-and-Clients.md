@@ -4,7 +4,6 @@ Feel free to add to this list.
 
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
 * [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Windows version with GUI
-* [Yingwa](https://github.com/dallascao/yingwa) - Shadowsocks Windows client
 
 #### OS X
 
