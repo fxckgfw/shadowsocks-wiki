@@ -1,6 +1,6 @@
-Setup OpenVPN and shadowsocks (Python / libev / node.js version) on your server.
+Setup OpenVPN and shadowsocks (Python / node.js version) on your server.
 
-Setup OpenVPN client and shadowsocks(Python / GUI / libev version) on your local machine.
+Setup OpenVPN client and shadowsocks(Python / node.js) on your local machine.
 
 Connect shadowsocks.
 
