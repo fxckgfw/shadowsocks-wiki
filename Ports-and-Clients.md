@@ -3,7 +3,7 @@ Feel free to add to this list.
 #### Windows
 
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit
-* [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Windows version with GUI
+* (deprecated) [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Windows version with GUI
 
 #### OS X
 
