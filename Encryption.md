@@ -13,6 +13,6 @@ Currently we support these encryption methods:
 - seed-cfb
 - salsa20-ctr
 
-These methods are legacy and not safe. Do not use them.
+These methods are legacy and not safe. Do not use them:
 - rc4
 - table
