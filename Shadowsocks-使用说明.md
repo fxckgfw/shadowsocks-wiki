@@ -20,6 +20,8 @@
     apt-get install python-pip python-m2crypto
     pip install shadowsocks
 
+如果你添加了 [Debian sid] 的源，可直接 `apt-get install shadowsocks`.
+
 #### CentOS:
 
     yum install m2crypto python-setuptools
@@ -54,7 +56,7 @@
 | local_port    | 本地端的端口                                     |
 | password      | 用于加密的密码                                    |
 | timeout       | 超时时间，单位秒                                  |
-| method        | 加密方法，推荐 "aes-256-cfb"                      |
+| method        | 默认 "aes-256-cfb"，参见[加密方法]                |
 | fast_open     | 是否使用 [TCP_FASTOPEN], true / false            |
 | workers       | worker 数量，Unix/Linux 可用，如果不理解含义请不要改 |
 
@@ -105,6 +107,7 @@ MIT
 [Windows]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#windows
 [OS X]:           https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9
 [Android]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#android
+[Debian sid]:     https://packages.debian.org/unstable/python/shadowsocks
 [iOS]:            https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
 [OpenWRT]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#openwrt
 [构建状态]:        https://img.shields.io/travis/clowwindy/shadowsocks/master.svg?style=flat
@@ -115,6 +118,7 @@ MIT
 [Supervisor]:     https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks
 [TCP_FASTOPEN]:   https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open
 [Travis CI]:      https://travis-ci.org/clowwindy/shadowsocks
+[加密方法]:        https://github.com/clowwindy/shadowsocks/wiki/Encryption
 [常见问题]:        https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting
 [邮件列表]:        http://groups.google.com/group/shadowsocks
 [SwitchySharp]:    https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm
