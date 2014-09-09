@@ -10,8 +10,11 @@ Currently we support these encryption methods:
 - des-cfb
 - idea-cfb
 - rc2-cfb
+- rc4-md5
 - seed-cfb
 - salsa20-ctr
+
+`rc4-md5` is a safe, fast encryption that use different key per connection. It is recommended for OpenWRT routers.
 
 These methods are legacy and not safe. Do not use them:
 - rc4
