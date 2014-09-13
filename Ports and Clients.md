@@ -2,15 +2,15 @@ Feel free to add to this list.
 
 #### Windows
 
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
-* [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Windows version with GUI - [Download](https://code.google.com/p/shadowsocks-csharp/downloads/list)
-* [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Cross-platform GUI powered by QT - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
+* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
+* [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Powered by C# - [Download](https://code.google.com/p/shadowsocks-csharp/downloads/list)
+* [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by QT - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
 
 #### OS X
 
 * [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Native Shadowsocks for Mac - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 * [GoAgentX](https://github.com/ohdarling/GoAgentX) - OSX client, with GUI - [Download](https://github.com/ohdarling/GoAgentX/releases)
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Cross-platform GUI powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
+* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 
 #### Linux / Server side
 
