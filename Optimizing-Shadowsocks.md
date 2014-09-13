@@ -42,7 +42,7 @@ If you use [Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-
 ulimit -n 51200
 ```
 
-If you use other ways to run shadowsocks in the background, make sure to add `ulimit -n 51200` in your init script.
+If you run shadowsocks in the background in other ways, make sure to add `ulimit -n 51200` in your init script.
 
 After optimizing, a busy Shadowsocks server that handles thousands of connections, takes about 30MB memory and 10% CPU. Notice that at the same time, **Linux kernel usually uses >100MB RAM** to hold buffer and cache for those connections. By using the sysctl config above, you are trading off RAM for speed. If you want to use less RAM, 
 reduce the size of rmem and wmem.
