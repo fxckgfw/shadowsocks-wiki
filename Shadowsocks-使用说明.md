@@ -91,6 +91,7 @@ Chrome 推荐使用 [SwitchySharp] 切换代理设置。把浏览器代理设为
 Wiki
 ----
 
+所有的文档都可以在 Wiki 里找到：
 https://github.com/clowwindy/shadowsocks/wiki
 
 协议
