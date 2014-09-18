@@ -4,7 +4,7 @@ Feel free to add to this list.
 
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 * [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Powered by C# - [Download](https://code.google.com/p/shadowsocks-csharp/downloads/list)
-* [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by QT - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
+* [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
 
 #### OS X
 
@@ -24,6 +24,7 @@ Feel free to add to this list.
 * [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
 * [Streisand](https://github.com/jlund/streisand) - Sets up a new server running L2TP/IPsec, OpenSSH, OpenVPN, Shadowsocks, Stunnel, and a Tor bridge.
+* [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Qt GUI fronted
 
 #### iOS
 
