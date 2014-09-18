@@ -1,6 +1,6 @@
 You can use different passwords on different ports like this:
 
-{
+    {
         "server": "127.0.0.1",
         "server_port": 8381,
         "local_port": 1081,
