@@ -22,7 +22,6 @@ Feel free to add to this list.
 * [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
 * [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
 * [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
-* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Qt GUI fronted
 
@@ -55,6 +54,7 @@ Feel free to add to this list.
 * [stackscript for linode](https://github.com/clowwindy/shadowsocks/wiki/Setting-Up-Shadowsocks-on-Linode)
 * [Streisand](https://github.com/jlund/streisand) - Sets up a new server running L2TP/IPsec, OpenSSH, OpenVPN, Shadowsocks, Stunnel, and a Tor bridge.
 * [Docker Registry](https://registry.hub.docker.com/u/hbrls/shadowsocks/)
+* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 
 #### Other clients
 
