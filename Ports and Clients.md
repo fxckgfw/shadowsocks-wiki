@@ -5,7 +5,7 @@ Feel free to add to this list.
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 * [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Powered by C# - [Download](https://code.google.com/p/shadowsocks-csharp/downloads/list)
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
-* [Nevermore](https://github.com/nihgwu/Nevermore) - another shadowsocks client powered by node-webkit - [Download](https://github.com/nihgwu/Nevermore/releases)
+* [Nevermore](https://github.com/nihgwu/Nevermore) - Powered by node-webkit - [Download](https://github.com/nihgwu/Nevermore/releases)
 
 #### OS X
 
