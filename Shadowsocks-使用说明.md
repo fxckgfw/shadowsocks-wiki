@@ -69,7 +69,7 @@ Chrome 推荐使用 [SwitchySharp] 切换代理设置。把浏览器代理设为
 
     协议: socks5
     地址: 127.0.0.1
-    端口: 你填的 local_port
+    端口: 你填的 local_port 1080
 
 如果无法安装 [SwitchySharp]，可以先用下列参数启动 Chrome，强制它使用代理：
 
