@@ -2,6 +2,15 @@ Currently we support these encryption methods:
 - aes-256-cfb: Default and recommended.
 - aes-128-cfb
 - aes-192-cfb
+- aes-128-ctr
+- aes-192-ctr
+- aes-256-ctr
+- aes-128-cfb8
+- aes-192-cfb8
+- aes-256-cfb8
+- aes-128-cfb1
+- aes-192-cfb1
+- aes-256-cfb1
 - bf-cfb
 - camellia-128-cfb
 - camellia-192-cfb
