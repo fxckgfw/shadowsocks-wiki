@@ -31,4 +31,8 @@ shadowsocks                      RUNNING    pid 6929, uptime 0:01:25
 }
 ```
 
+If you need to restart the server, run
+
+    supervisorctl restart shadowsocks
+
 [Linode]: https://www.linode.com/?r=e7932c8b03f9abc8aab71663b90b689a676402d1
