@@ -27,7 +27,8 @@ net.ipv4.tcp_fastopen = 3
 net.ipv4.tcp_rmem = 4096 87380 67108864
 net.ipv4.tcp_wmem = 4096 65536 67108864
 net.ipv4.tcp_mtu_probing = 1
-net.ipv4.tcp_congestion_control = hybla
+net.ipv4.tcp_congestion_control = hybla  # for high-latency network
+# net.ipv4.tcp_congestion_control = cubic  # for low-latency network, use cubic instead
 ```
 
 Then:
@@ -62,14 +63,3 @@ reduce the size of rmem and wmem.
 Before & after:
 
 ![cc](https://cloud.githubusercontent.com/assets/1073082/3296349/10c34b04-f5d9-11e3-95fc-e38f5299c274.jpg)
-
-
-**NOTICE**
-
-Hybla may not be suitable for low-latency network. cubic is probably a better choice for you.
-
-you You must select `net.ipv4.tcp_congestion_control = hybla` or `net.ipv4.tcp_congestion_control = cubic` based on test.
-
-Eg.
-
-![cubic](https://raw.githubusercontent.com/mengskysama/wiki/master/sad.png)
