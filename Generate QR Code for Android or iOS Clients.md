@@ -4,15 +4,15 @@ You can encode your server configuration to a QR Code.
 
 1. Put your configuration together:
 
-    method:password@hostname:port
+        method:password@hostname:port
 
 2. Transform it into base64:
 
-    bWV0aG9kOnBhc3N3b3JkQGhvc3RuYW1lOnBvcnQK
+        bWV0aG9kOnBhc3N3b3JkQGhvc3RuYW1lOnBvcnQK
 
 3. Prepend with `ss://`
 
-    ss://bWV0aG9kOnBhc3N3b3JkQGhvc3RuYW1lOnBvcnQK
+        ss://bWV0aG9kOnBhc3N3b3JkQGhvc3RuYW1lOnBvcnQK
 
 4. Generate a QR Code from the url above.
 
