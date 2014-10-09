@@ -17,10 +17,12 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
     * [Android](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#android)
     * [OpenWRT](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#openwrt)
 - [Optimizing Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)
-- Advanced Usage
+- Configuration
     * [Run Shadowsocks in the Background](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor) [（中文版：后台运行 Shadowsocks）]
 (https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks)
+    * [https://github.com/clowwindy/shadowsocks/wiki/Generate-QR-Code-for-Android-or-iOS-Clients](https://github.com/clowwindy/shadowsocks/wiki/Generate-QR-Code-for-Android-or-iOS-Clients)
     * [Configure Multiple Users](https://github.com/clowwindy/shadowsocks/wiki/Configure-Multiple-Users)
+- Advanced Features
     * [Convert Shadowsocks into an HTTP proxy](https://github.com/clowwindy/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy)
     * [Using Shadowsocks with Command Line Tools](https://github.com/clowwindy/shadowsocks/wiki/Using-Shadowsocks-with-Command-Line-Tools)
     * [Setup a Shadowsocks Relay](https://github.com/clowwindy/shadowsocks/wiki/Setup-a-Shadowsocks-relay)
