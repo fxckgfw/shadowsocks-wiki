@@ -2,7 +2,7 @@ ShadowSocks Android and iOS supports QR Code configuration.
 
 You can encode your server configuration to a QR Code.
 
-1. Put your configuration together:
+1. Put your configuration together like this:
 
         method:password@hostname:port
 
