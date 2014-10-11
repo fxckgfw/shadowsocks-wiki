@@ -17,16 +17,22 @@
 
 #### Debian / Ubuntu:
 
-    apt-get install python-pip python-m2crypto
+    apt-get install python-pip
     pip install shadowsocks
 
 如果你添加了 [Debian sid] 的源，可直接 `apt-get install shadowsocks`.
 
 #### CentOS:
 
-    yum install m2crypto python-setuptools
+    yum install python-setuptools
     easy_install pip
     pip install shadowsocks
+
+#### Windows:
+
+下载安装 OpenSSL for Windows。然后类似 Linux 通过 easy_install 或 pip 来安装。
+如果你不清楚如何使用 easy_install，也可以直接[下载]，然后用 `python shadowsocks/server.py`
+代替下文的 `ssserver`。
 
 服务器配置
 ---------
@@ -124,3 +130,4 @@ MIT
 [邮件列表]:        http://groups.google.com/group/shadowsocks
 [SwitchySharp]:    https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm
 [Chrome 离线安装包]: https://support.google.com/installer/answer/126299?hl=zh-Hans
+[下载]:           https://pypi.python.org/pypi/shadowsocks
