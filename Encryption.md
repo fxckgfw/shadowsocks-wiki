@@ -2,6 +2,9 @@ Currently we support these encryption methods:
 - aes-256-cfb: Default and recommended.
 - aes-128-cfb
 - aes-192-cfb
+- aes-256-ofb
+- aes-128-ofb
+- aes-192-ofb
 - aes-128-ctr
 - aes-192-ctr
 - aes-256-ctr
