@@ -70,6 +70,7 @@
 请使用 [supervisor].
 
 在本地，用上文的客户端进行相应配置并运行客户端，然后设置浏览器代理。
+如果客户端也希望使用命令行版，可以运行 `sslocal -c /etc/shadowsocks.json`。
 
 Chrome 推荐使用 [SwitchySharp] 切换代理设置。把浏览器代理设为下列参数即可：
 
