@@ -15,7 +15,7 @@ You can encode your server configuration to a QR Code.
 
 3. Prepend with `ss://`
 
-        ss://bWV0aG9kOnBhc3N3b3JkQGhvc3RuYW1lOnBvcnQK
+        ss://bWV0aG9kOnBhc3N3b3JkQGhvc3RuYW1lOnBvcnQ=
 
 4. Generate a QR Code from the url above.
 
