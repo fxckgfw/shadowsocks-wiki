@@ -1,5 +1,8 @@
 ShadowSocks Android and iOS supports QR Code configuration.
 
+Protocol
+========
+
 You can encode your server configuration to a QR Code.
 
 1. Put your configuration together like this:
@@ -15,6 +18,17 @@ You can encode your server configuration to a QR Code.
         ss://bWV0aG9kOnBhc3N3b3JkQGhvc3RuYW1lOnBvcnQK
 
 4. Generate a QR Code from the url above.
+
+Generate via Command line
+=========================
+
+    pip install qrcode
+    echo "ss://"`echo -n aes-256-cfb:password@1.2.3.4:8388 | base64` | qr
+
+![image](https://cloud.githubusercontent.com/assets/1073082/4605421/ed9d5e1c-51e0-11e4-91f3-30c96c1230d0.png)
+
+Generate via GUI clients
+========================
 
 You can also generate QR Codes with
 [Shadowsocks GUI](https://github.com/shadowsocks/shadowsocks-gui)
