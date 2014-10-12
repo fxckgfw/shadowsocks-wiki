@@ -28,6 +28,16 @@ Supported Ciphers
 - seed-cfb
 - salsa20-ctr
 
+Installing `M2Crypto` will make encryption a little faster.
+
+Debian:
+
+    apt-get install python-m2crypto
+
+CentOS:
+
+    yum install m2crypto
+
 rc4-md5
 =======
 `rc4-md5` is a safe, fast encryption that use different key per connection. It is recommended for OpenWRT routers.
