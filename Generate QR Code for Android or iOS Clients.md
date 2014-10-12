@@ -25,7 +25,9 @@ Generate via Command line
     pip install qrcode
     echo "ss://"`echo -n aes-256-cfb:password@1.2.3.4:8388 | base64` | qr
 
-![image](https://cloud.githubusercontent.com/assets/1073082/4605421/ed9d5e1c-51e0-11e4-91f3-30c96c1230d0.png)
+If you can't scan the code, try changing your terminal font.
+
+![image](https://cloud.githubusercontent.com/assets/1073082/4605437/6a41d15a-51e1-11e4-801a-424b5add2009.png)
 
 Generate via GUI clients
 ========================
