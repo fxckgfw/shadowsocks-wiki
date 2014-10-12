@@ -16,9 +16,12 @@ You can encode your server configuration to a QR Code.
 
 4. Generate a QR Code from the url above.
 
-You can also generate QR Codes with [Shadowsocks GUI](https://github.com/shadowsocks/shadowsocks-gui):
+You can also generate QR Codes with
+[Shadowsocks GUI](https://github.com/shadowsocks/shadowsocks-gui)
+or [Shadowsocks for OS X](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help):
 
 ![image](https://cloud.githubusercontent.com/assets/1073082/4577064/1fb3b754-4fb9-11e4-9ab3-215e80d8ef1e.png)
 
 ![image](https://cloud.githubusercontent.com/assets/1073082/4576995/92b0cf5e-4fb8-11e4-84ce-6db752f6ba69.png)
 
+![image](https://cloud.githubusercontent.com/assets/1073082/4605261/a345d9d4-51d6-11e4-94e8-a13a987567e7.png)
