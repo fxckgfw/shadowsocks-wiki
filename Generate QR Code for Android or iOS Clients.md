@@ -23,7 +23,7 @@ Generate via Command line
 =========================
 
     pip install qrcode
-    echo "ss://"`echo -n aes-256-cfb:password@1.2.3.4:8388 | base64` | qr
+    echo -n "ss://"`echo -n aes-256-cfb:password@1.2.3.4:8388 | base64` | qr
 
 If you can't scan the code, try changing your terminal font.
 
