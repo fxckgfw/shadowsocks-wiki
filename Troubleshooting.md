@@ -6,6 +6,7 @@
 4. 如果服务端收到了请求，但浏览器没有载入内容，检查服务端的 DNS `/etc/resolv.conf`，改为 `8.8.8.8` 再重启服务端。
 5. 如果服务端速度慢，可能无良 ISP 做了 QoS，更换端口到 `80` `25` `443` `995` `3389` 等常用端口再测试。
 6. 如果服务端启动时提示权限问题，可能是系统限制了 <1024 端口权限，用 iptables 做转发即可 `iptables -t nat -A PREROUTING -p tcp --dport 995 -j REDIRECT --to-ports 8387`
+7. 如果访问特定的网站有问题，打开浏览器开发者工具网络部分，看一下哪个请求卡住了，然后在服务器上尝试用 ping curl 等工具检查这个请求的 URL 和主机的联通性。并检查这个请求的 URL 是不是被你的 PAC 规则排除了。
 
 When you have problems, follow the steps below to diagnose:
 
@@ -15,3 +16,4 @@ When you have problems, follow the steps below to diagnose:
 4. If the server received requests but your browser got no responses, check the DNS on your server. Change it into `8.8.8.8`, restart your server and test again.
 5. If the server is slow, change your server port into common port like `80` `25` `443` `995` `3389`.
 6. If you see `Permission Denied` when server starts, use `iptables` to redirect ports<1024 to ports>1024 `iptables -t nat -A PREROUTING -p tcp --dport 995 -j REDIRECT --to-ports 8387`
+7. If you have connection problem only to a specific website, open developer console and check which request block the loading process. Check its url and hostname, and use `ping` `curl` to check connectivity from your server to that url and hostname. Also check if this URL is bypassed by your PAC.
