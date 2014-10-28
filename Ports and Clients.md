@@ -48,6 +48,7 @@ Feel free to add to this list.
 * [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
 * [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version
 * [shadowsocks-gtk](https://github.com/apporc/shadowsocks-gtk) - Python GTK version
+* [shadowsocks-rust](https://github.com/zonyitoo/shadowsocks-rust) - Rust version
 
 #### Deploy scripts
 
