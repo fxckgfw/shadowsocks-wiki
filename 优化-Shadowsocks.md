@@ -36,7 +36,7 @@ net.ipv4.tcp_congestion_control = hybla
 
 注意：**不要开启 `net.ipv4.tcp_tw_recycle`！！！**[看这个文章](http://vincent.bernat.im/en/blog/2014-tcp-time-wait-state-linux.html)。
 
-如果你在使用 [Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor) 的话，请确保 `/etc/default/supervisor` 文件中有下面这一行。添加这一行之后，请重启 Supervisor（`service stop supervisor && service start supervisor`）
+如果你在使用 [Supervisor](https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor) 的话，请确保 `/etc/default/supervisor` 文件中有下面这一行。添加这一行之后，请重启 Supervisor（`service supervisor stop && service supervisor start`）
 
 ```
 ulimit -n 51200
