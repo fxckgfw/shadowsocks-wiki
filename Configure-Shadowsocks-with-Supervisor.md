@@ -75,3 +75,7 @@ sudo chkconfig supervisord on
 service supervisor start
 supervisorctl reload
 ```
+
+Edit `/etc/sysconfig/iptables`, add
+
+    -A INPUT -m state --state NEW -m tcp -p tcp --dport your_server_port -j ACCEPT
