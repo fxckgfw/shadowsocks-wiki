@@ -2,15 +2,6 @@
 
 If you want to run Shadowsocks in the background, use supervisor.
 
-Here is an example of running shadowsocks with supervisor on Debian 7.0:
-
-Run
-```
-apt-get update
-apt-get install python-pip python-m2crypto supervisor
-pip install shadowsocks
-```
-
 Edit `/etc/shadowsocks.json`
 
 ```
@@ -22,6 +13,16 @@ Edit `/etc/shadowsocks.json`
     "timeout":600,
     "method":"aes-256-cfb"
 }
+```
+
+Debian
+------
+
+Run
+```
+apt-get update
+apt-get install python-pip python-m2crypto supervisor
+pip install shadowsocks
 ```
 
 Edit `/etc/supervisor/conf.d/shadowsocks.conf`
@@ -50,4 +51,27 @@ You can check logs or control the shadowsocks process:
 ```
 supervisorctl tail -f shadowsocks stderr
 supervisorctl restart shadowsocks
+```
+
+CentOS
+------
+
+Edit `/etc/supervisord.conf`, add
+
+```
+[program:shadowsocks]
+command=ssserver -c /etc/shadowsocks.json
+autorestart=true
+user=nobody
+```
+
+Run
+
+```
+sudo yum install python-pip supervisor
+sudo pip install shadowsocks
+sudo chkconfig --add supervisord
+sudo chkconfig supervisord on
+service supervisor start
+supervisorctl reload
 ```
