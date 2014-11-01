@@ -1,20 +1,9 @@
 如果你想在后台运行 Shadowsocks，可以使用 Supervisor，
 它可以方便地监控和控制任何程序，实现开机自动启动和后台运行。
 
-下面是 Debian 和 Ubuntu 上的配置方法（如果你是 Linux 新手，
-不需要 [SELinux]，也不了解[防火墙配置]，也弄不清楚 RHEL 和
-CentOS 的[版本机制]，那就用 Debian 或 Ubuntu 吧，别折腾了）：
+编辑 `/etc/shadowsocks.json`
 
-1. 执行
-    ```
-    apt-get update
-    apt-get install python-pip python-m2crypto supervisor
-    pip install shadowsocks
-    ```
 
-2. 编辑 `/etc/shadowsocks.json`
-
-    ```
     {
         "server":"0.0.0.0",
         "server_port":7325,
@@ -23,36 +12,41 @@ CentOS 的[版本机制]，那就用 Debian 或 Ubuntu 吧，别折腾了）：
         "timeout":600,
         "method":"aes-256-cfb"
     }
-    ```
-    记得改密码和服务端端口，不要用默认的。
 
-3. 编辑 `/etc/supervisor/conf.d/shadowsocks.conf`
+记得改密码和服务端端口，不要用默认的。
 
-    ```
+Debian
+------
+
+执行
+
+    apt-get update
+    apt-get install python-pip python-m2crypto supervisor
+    pip install shadowsocks
+
+
+编辑 `/etc/supervisor/conf.d/shadowsocks.conf`
+
+
     [program:shadowsocks]
     command=ssserver -c /etc/shadowsocks.json
     autorestart=true
     user=nobody
-    ```
-    如果端口 < 1024，把上面的 user=nobody 改成 user=root。
 
-4. 在 `/etc/default/supervisor` 最后加一行：
+如果端口 < 1024，把上面的 user=nobody 改成 user=root。
 
-    ```
+在 `/etc/default/supervisor` 最后加一行：
+
     ulimit -n 51200
-    ```
 
-5. 执行
-    ```
+执行
+
     service supervisor start
     supervisorctl reload
-    ```
-    就好了。
 
 如果遇到问题，可以检查日志：
 
     supervisorctl tail -f shadowsocks stderr
-
 
 如果修改了 shadowsocks 配置 `/etc/shadowsocks.json`，
 可以重启 shadowsocks：
@@ -64,6 +58,25 @@ CentOS 的[版本机制]，那就用 Debian 或 Ubuntu 吧，别折腾了）：
 
     supervisorctl update
 
-[SELinux]: http://wiki.centos.org/HowTos/SELinux
-[防火墙配置]: https://github.com/clowwindy/shadowsocks/issues/133
-[版本机制]: http://wiki.centos.org/FAQ/General#head-6e2c3746ec45ac3142917466760321e868f43c0e
+CentOS
+------
+
+编辑 `/etc/supervisord.conf`， 添加
+
+```
+[program:shadowsocks]
+command=ssserver -c /etc/shadowsocks.json
+autorestart=true
+user=nobody
+```
+
+运行
+
+```
+sudo yum install python-pip supervisor
+sudo pip install shadowsocks
+sudo chkconfig --add supervisord
+sudo chkconfig supervisord on
+service supervisor start
+supervisorctl reload
+```
