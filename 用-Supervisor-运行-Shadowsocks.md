@@ -80,3 +80,7 @@ sudo chkconfig supervisord on
 service supervisor start
 supervisorctl reload
 ```
+
+编辑 `/etc/sysconfig/iptables`，添加
+
+    -A INPUT -m state --state NEW -m tcp -p tcp --dport your_server_port -j ACCEPT
