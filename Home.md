@@ -10,6 +10,7 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
 - If you use Linode
     * [Tutorial with Linode](https://github.com/clowwindy/shadowsocks/wiki/Setting-Up-Shadowsocks-on-Linode)
     * [Linode 上的搭建教程](https://github.com/clowwindy/shadowsocks/wiki/%E5%9C%A8-Linode-%E4%B8%8A%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA-Shadowsocks)
+    * [CentOS 上的搭建教程](https://github.com/clowwindy/shadowsocks/wiki/CentOS%E4%B8%8A%E9%85%8D%E7%BD%AEShadowsocks)
 - [Ports and clients](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients)
     * [Windows](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#windows)
     * [OS X](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#os-x)
