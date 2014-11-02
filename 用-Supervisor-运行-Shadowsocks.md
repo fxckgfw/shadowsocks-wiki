@@ -61,6 +61,12 @@ Debian
 CentOS
 ------
 
+运行
+
+```
+sudo yum install python-pip supervisor
+sudo pip install shadowsocks
+```
 编辑 `/etc/supervisord.conf`， 添加
 
 ```
@@ -73,8 +79,6 @@ user=nobody
 运行
 
 ```
-sudo yum install python-pip supervisor
-sudo pip install shadowsocks
 sudo chkconfig --add supervisord
 sudo chkconfig supervisord on
 service supervisor start
