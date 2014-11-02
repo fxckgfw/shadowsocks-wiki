@@ -56,6 +56,13 @@ supervisorctl restart shadowsocks
 CentOS
 ------
 
+Run
+
+```
+sudo yum install python-pip supervisor
+sudo pip install shadowsocks
+```
+
 Edit `/etc/supervisord.conf`, add
 
 ```
@@ -68,8 +75,6 @@ user=nobody
 Run
 
 ```
-sudo yum install python-pip supervisor
-sudo pip install shadowsocks
 sudo chkconfig --add supervisord
 sudo chkconfig supervisord on
 service supervisor start
