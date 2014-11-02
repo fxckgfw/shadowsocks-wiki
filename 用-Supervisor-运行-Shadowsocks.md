@@ -81,7 +81,7 @@ user=nobody
 ```
 sudo chkconfig --add supervisord
 sudo chkconfig supervisord on
-service supervisor start
+service supervisord start
 supervisorctl reload
 ```
 
