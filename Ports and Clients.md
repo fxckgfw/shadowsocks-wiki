@@ -6,6 +6,7 @@ Feel free to add to this list.
 * [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Powered by C# - [Download](https://code.google.com/p/shadowsocks-csharp/downloads/list)
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
 * [Nevermore](https://github.com/nihgwu/Nevermore) - Powered by node-webkit - [Download](https://github.com/nihgwu/Nevermore/releases)
+* [gShadowsocks](https://github.com/kawaiiushio/gShadowsocks) - Powered by shadowsocks-nodejs
 
 #### OS X
 
