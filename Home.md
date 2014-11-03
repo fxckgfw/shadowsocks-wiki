@@ -33,6 +33,7 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
     * [OpenVPN over Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/Connect-to-OpenVPN-over-Shadowsocks)
     * [Using Workers](https://github.com/clowwindy/shadowsocks/wiki/Workers)
     * [Graceful shutdown and restart](https://github.com/clowwindy/shadowsocks/wiki/Graceful-shutdown-and-restart)
+    * [Change Server on the Fly](https://github.com/clowwindy/shadowsocks/wiki/Change-Server-on-the-Fly)
 
 ### Latest Release
 
