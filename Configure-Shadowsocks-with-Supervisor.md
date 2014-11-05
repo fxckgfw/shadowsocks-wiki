@@ -59,8 +59,9 @@ CentOS
 Run
 
 ```
-sudo yum install python-pip supervisor
-sudo pip install shadowsocks
+yum install python-setuptools supervisor
+easy_install pip
+pip install shadowsocks
 ```
 
 Edit `/etc/supervisord.conf`, add
