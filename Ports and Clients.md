@@ -2,8 +2,8 @@ Feel free to add to this list.
 
 #### Windows
 
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
-* [shadowsocks-csharp](https://github.com/clowwindy/shadowsocks-csharp) - Powered by C# - [Download](https://code.google.com/p/shadowsocks-csharp/downloads/list)
+* [Shadowsocks for Windows](https://github.com/clowwindy/shadowsocks-csharp) - Native Shadowsocks for Windows - [Download]
+* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)(https://code.google.com/p/shadowsocks-csharp/downloads/list)
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
 * [Nevermore](https://github.com/nihgwu/Nevermore) - Powered by node-webkit - [Download](https://github.com/nihgwu/Nevermore/releases)
 * [gShadowsocks](https://github.com/kawaiiushio/gShadowsocks) - Powered by shadowsocks-nodejs
