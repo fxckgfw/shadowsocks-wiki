@@ -1,4 +1,4 @@
-Feel free to add to this list.
+Please open an issue to add to this list. 
 
 #### Windows
 
