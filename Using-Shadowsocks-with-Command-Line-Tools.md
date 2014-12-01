@@ -28,4 +28,9 @@ Then run command with proxychains.
     proxychains4 curl https://www.twitter.com/
     proxychains4 git push origin master
 
+Or
+
+    proxychains4 -q bash
+    curl https://www.twitter.com/
+
 [1]: http://proxychains.sourceforge.net/
