@@ -1,4 +1,4 @@
-ShadowSocks Android and iOS supports QR Code configuration.
+Shadowsocks Android and iOS supports QR Code configuration.
 
 Protocol
 ========
