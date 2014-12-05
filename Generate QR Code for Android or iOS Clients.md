@@ -32,8 +32,10 @@ If you can't scan the code, try changing your terminal font.
 Generate via GUI clients
 ========================
 
-You can also generate QR Codes with
-[Shadowsocks GUI](https://github.com/shadowsocks/shadowsocks-gui)
-or [Shadowsocks for OS X](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help):
+You can also generate QR Codes with some GUI clients:
+- [Shadowsocks for Windows](https://github.com/clowwindy/shadowsocks-csharp)
+- [Shadowsocks for OS X](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help)
+- [Shadowsocks-Qt5](https://github.com/librehat/shadowsocks-qt5)
+- [Shadowsocks GUI](https://github.com/shadowsocks/shadowsocks-gui)
 
 ![image](https://cloud.githubusercontent.com/assets/1073082/4605261/a345d9d4-51d6-11e4-94e8-a13a987567e7.png)
