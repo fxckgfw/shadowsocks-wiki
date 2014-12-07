@@ -52,36 +52,3 @@ You can check logs or control the shadowsocks process:
 supervisorctl tail -f shadowsocks stderr
 supervisorctl restart shadowsocks
 ```
-
-CentOS
-------
-
-Run
-
-```
-yum install python-setuptools supervisor
-easy_install pip
-pip install shadowsocks
-```
-
-Edit `/etc/supervisord.conf`, add
-
-```
-[program:shadowsocks]
-command=ssserver -c /etc/shadowsocks.json
-autorestart=true
-user=nobody
-```
-
-Run
-
-```
-sudo chkconfig --add supervisord
-sudo chkconfig supervisord on
-service supervisor start
-supervisorctl reload
-```
-
-Edit `/etc/sysconfig/iptables`, add
-
-    -A INPUT -m state --state NEW -m tcp -p tcp --dport your_server_port -j ACCEPT
