@@ -57,35 +57,3 @@ Debian
 可以更新 supervisor 配置：
 
     supervisorctl update
-
-CentOS
-------
-
-运行
-
-```
-yum install python-setuptools supervisor
-easy_install pip
-pip install shadowsocks
-```
-编辑 `/etc/supervisord.conf`， 添加
-
-```
-[program:shadowsocks]
-command=ssserver -c /etc/shadowsocks.json
-autorestart=true
-user=nobody
-```
-
-运行
-
-```
-sudo chkconfig --add supervisord
-sudo chkconfig supervisord on
-service supervisord start
-supervisorctl reload
-```
-
-编辑 `/etc/sysconfig/iptables`，添加
-
-    -A INPUT -m state --state NEW -m tcp -p tcp --dport your_server_port -j ACCEPT
