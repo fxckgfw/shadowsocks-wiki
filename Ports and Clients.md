@@ -20,11 +20,11 @@ Please open an issue to add to this list.
 * [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
 * [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
-* [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
-* [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
-* [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
-* [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Qt GUI fronted
+* [libQtShadowsocks](https://github.com/librehat/libQtShadowsocks) - C++/Qt version library
+* [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
+* [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
+* [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
 
 #### iOS
 
@@ -49,6 +49,7 @@ Please open an issue to add to this list.
 * [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
 * [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version
 * [shadowsocks-gtk](https://github.com/apporc/shadowsocks-gtk) - Python GTK version
+* [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
 * [shadowsocks-rust](https://github.com/zonyitoo/shadowsocks-rust) - Rust version
 
 #### Deploy scripts
