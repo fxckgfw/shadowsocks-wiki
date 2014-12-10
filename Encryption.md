@@ -53,6 +53,7 @@ You can use [this script](https://github.com/clowwindy/shadowsocks/blob/master/t
 
 Deprecated Ciphers
 ==================
-These ciphers are legacy and not safe. Do not use them:
+These legacy ciphers are either slow or not safe. Do not use them:
 - rc4
 - table
+- salsa20-ctr
