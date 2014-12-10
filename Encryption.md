@@ -44,7 +44,7 @@ rc4-md5
 
 salsa20 and chacha20
 ====================
-Salsa20 and chacha20 are fast stream ciphers. Optimized salsa20 implementation on x86_64 is even 2x faster than RC4 (but slightly slower on ARM).
+`salsa20` and `chacha20` are fast stream ciphers. Optimized `salsa20` implementation on x86_64 is even 2x faster than `rc4` (but slightly slower on ARM).
 
 Install [libsodium](https://github.com/jedisct1/libsodium) >= 1.0.0 if you want to use them.
 
