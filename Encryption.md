@@ -21,7 +21,6 @@ Supported Ciphers
 - camellia-192-cfb
 - camellia-256-cfb
 - cast5-cfb
-- des-cfb
 - idea-cfb
 - rc2-cfb
 - rc4-md5
@@ -55,5 +54,6 @@ Deprecated Ciphers
 ==================
 These legacy ciphers are either slow or not safe. Do not use them:
 - rc4
+- des-cfb
 - table
 - salsa20-ctr
