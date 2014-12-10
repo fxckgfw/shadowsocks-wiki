@@ -21,12 +21,12 @@ Supported Ciphers
 - camellia-192-cfb
 - camellia-256-cfb
 - cast5-cfb
+- chacha20
 - idea-cfb
 - rc2-cfb
 - rc4-md5
-- seed-cfb
 - salsa20
-- chacha20
+- seed-cfb
 
 Installing `M2Crypto` will make encryption a little faster.
 
