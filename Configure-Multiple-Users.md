@@ -1,4 +1,4 @@
-Currently Python and Go server support multiple users.
+Currently Python and Go servers support multiple users.
 
 You can use different passwords on different ports like this:
 
