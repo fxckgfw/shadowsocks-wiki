@@ -26,7 +26,8 @@ Supported Ciphers
 - rc2-cfb
 - rc4-md5
 - seed-cfb
-- salsa20-ctr
+- salsa20
+- chacha20
 
 Installing `M2Crypto` will make encryption a little faster.
 
@@ -42,16 +43,13 @@ rc4-md5
 =======
 `rc4-md5` is a safe, fast encryption that use different key per connection. It is recommended for OpenWRT routers.
 
-salsa20-ctr
-===========
-salsa20-ctr is a fast stream cipher.
+salsa20 and chacha20
+====================
+Salsa20 and chacha20 are fast stream ciphers. Optimized salsa20 implementation on x86_64 is even 2x faster than RC4 (but slower on ARM).
 
-Install these packages if you want to use it:
+Install [libsodium](https://github.com/jedisct1/libsodium) >= 1.0.0 if you want to use them.
 
-Debian / Ubuntu:
-
-    apt-get install python-numpy
-    pip install salsa20
+You can use [this script](https://github.com/clowwindy/shadowsocks/blob/master/tests/libsodium/install.sh) to install it.
 
 Deprecated Ciphers
 ==================
