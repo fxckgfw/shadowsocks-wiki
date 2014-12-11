@@ -47,7 +47,7 @@ Make sure to read [Contribute to Shadowsocks](https://github.com/clowwindy/shado
 - [Troubleshooting]
 - [Mailing list]
 - [Issue Tracker]
-
+- [Why is My Question not Answered?]
 
 [Build Status]:     https://img.shields.io/travis/clowwindy/shadowsocks/master.svg?style=flat
 [Chinese Readme]:   https://github.com/clowwindy/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
@@ -61,3 +61,4 @@ Make sure to read [Contribute to Shadowsocks](https://github.com/clowwindy/shado
 [Travis CI]:        https://travis-ci.org/clowwindy/shadowsocks
 [Troubleshooting]:  https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting
 [SwitchySharp]:     https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm
+[Why is My Question not Answered?]: https://github.com/clowwindy/shadowsocks/wiki/Why-is-My-Question-not-Answered%3F
