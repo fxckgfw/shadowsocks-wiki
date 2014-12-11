@@ -1,4 +1,4 @@
-If your question satisfies any of the following below:
+If your question satisfies the following below:
 
 1. We have already answered the same question before
 2. Provides very little information (OS, env, steps to produce, etc)
