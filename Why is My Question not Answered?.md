@@ -6,7 +6,7 @@ If your question satisfies any of the following below:
 4. Looks like your own problem, i.e. lack of Linux knowledge
 5. Seems to take a great amount of time to teach you something
 
-We may simply ignore your question. Because every day there're HUNDREDS of question like this, which we don't have time to even just reply hey, your question is bad.
+We may simply ignore your question. Because every day there're HUNDREDS of questions like this, which we don't have time to even just reply hey, please improve your question or we can not answer it!
 
 What should you do?
 
