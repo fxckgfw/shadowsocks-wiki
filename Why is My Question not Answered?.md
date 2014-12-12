@@ -10,7 +10,7 @@ Other people may simply ignore your question. Because every day there're HUNDRED
 What should you do?
 
 1. Take a look at [Troubleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting)
-2. [STFW](http://en.wiktionary.org/wiki/STFW)
+2. [RTFM](http://en.wikipedia.org/wiki/RTFM) and [STFW](http://en.wiktionary.org/wiki/STFW)
 3. If it is just a question, post the question to forums or mail lists rather than the issue tracker.
 4. Provide [enough information](https://github.com/clowwindy/shadowsocks/blob/master/CONTRIBUTING.md).
 4. Try to think how can you make it easier and fun for others to answer your question.
