@@ -48,7 +48,7 @@ Make sure to read [Contribute to Shadowsocks](https://github.com/clowwindy/shado
 - [Troubleshooting]
 - [Mailing list]
 - [Issue Tracker]
-- [Why is My Question not Answered?](https://github.com/clowwindy/shadowsocks/wiki/Why-is-My-Question-not-Answered%3F) [中文](https://github.com/clowwindy/shadowsocks/wiki/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E9%97%AE%E9%A2%98%E6%B2%A1%E6%9C%89%E8%A2%AB%E5%9B%9E%E7%AD%94%EF%BC%9F)
+- [Why is My Question not Answered?](https://github.com/clowwindy/shadowsocks/wiki/Why-is-My-Question-not-Answered%3F) [中文](https://github.com/clowwindy/shadowsocks/wiki/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E9%97%AE%E9%A2%98%E8%A2%AB%E6%97%A0%E8%A7%86%E4%BA%86%EF%BC%9F)
 
 [Build Status]:     https://img.shields.io/travis/clowwindy/shadowsocks/master.svg?style=flat
 [Chinese Readme]:   https://github.com/clowwindy/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
