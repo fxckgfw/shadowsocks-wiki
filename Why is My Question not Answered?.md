@@ -1,6 +1,6 @@
 [中文版](https://github.com/clowwindy/shadowsocks/wiki/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E9%97%AE%E9%A2%98%E8%A2%AB%E6%97%A0%E8%A7%86%E4%BA%86%EF%BC%9F)
 
-If your question satisfies the following below:
+If your question satisfies the following:
 
 1. Has been already answered many times before
 2. Provides very little information (OS, env, steps to produce, etc)
