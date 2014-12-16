@@ -1,6 +1,13 @@
 Supported Ciphers
 =================
 
+                   |  Python   |    libev    |     Go    |  node.js
+------------------ | --------- | ----------- | ----------| ---------
+OpenSSL (AES, etc) |     Y     |      Y      |      Y    |     Y
+RC4-MD5            |     Y     |      Y      |      Y    |     Y
+Salsa20, Chacha20  |     Y     |      Y      |      N    |     N
+table              |     Y     |      Y      |      Y    |     Y
+
 - aes-256-cfb: Default
 - aes-128-cfb
 - aes-192-cfb
@@ -57,5 +64,3 @@ These legacy ciphers are either slow or not safe. Do not use them:
 - des-cfb
 - table
 - salsa20-ctr
-
-Notice: not all Shadowsocks versions support every ciphers.
