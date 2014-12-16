@@ -9,3 +9,4 @@ Then turn on fast open on your OS temporarily:
 
 To turn on fast open permanently, see [Optimizing Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks).
 
+Notice: only [some versions](https://github.com/clowwindy/shadowsocks/wiki/Feature-Comparison-across-Different-Versions) support this feature.
