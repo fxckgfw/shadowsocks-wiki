@@ -10,3 +10,5 @@ Add these lines to your .ovpn file:
     route SHADOWSOCKS_SERVER_IP 255.255.255.255 net_gateway
 
 Then connect OpenVPN.
+
+Notice: only [versions that support UDP relay](https://github.com/clowwindy/shadowsocks/wiki/Feature-Comparison-across-Different-Versions) support this feature.
