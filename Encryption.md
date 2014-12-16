@@ -6,7 +6,6 @@ Supported Ciphers
 OpenSSL (AES, etc) |     Y     |      Y      |      Y    |     Y
 RC4-MD5            |     Y     |      Y      |      Y    |     Y
 Salsa20, Chacha20  |     Y     |      Y      |      N    |     N
-table              |     Y     |      Y      |      Y    |     Y
 
 - aes-256-cfb: Default
 - aes-128-cfb
