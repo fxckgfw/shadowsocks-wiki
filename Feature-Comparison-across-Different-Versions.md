@@ -6,7 +6,7 @@ Here's the page answering questions: does A support B?
 ----------------- | --------- | ----------- | ----------| ---------
 Fast Open         |     Y     |      Y      |      N    |     N
 Multiple Users    |     Y     |      N      |      Y    |     Y
-Workers           |     Y     |      N      |      Y    |     N
+Workers           |     Y     |      N      |      N    |     N
 Graceful Restart  |     Y     |      N      |      N    |     N
 ss-redir          |     N     |      Y      |      N    |     N
 ss-tunnel         |     N     |      Y      |      N    |     N
