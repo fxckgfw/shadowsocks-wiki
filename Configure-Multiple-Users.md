@@ -14,3 +14,5 @@ You can use different passwords on different ports like this:
         "timeout": 60,
         "method": "aes-256-cfb"
     }
+
+Notice: only [some versions](https://github.com/clowwindy/shadowsocks/wiki/Feature-Comparison-across-Different-Versions) support this feature.
