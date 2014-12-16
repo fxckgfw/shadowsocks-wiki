@@ -58,4 +58,4 @@ These legacy ciphers are either slow or not safe. Do not use them:
 - table
 - salsa20-ctr
 
-Notice: not all Shadowsocks versions support support every ciphers.
+Notice: not all Shadowsocks versions support every ciphers.
