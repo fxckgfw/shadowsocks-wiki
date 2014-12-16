@@ -14,11 +14,11 @@ UDP Relay         |     Y     |      Y      |      N    |     Y
 
 ## Clients
 
-                   | Windows | ShadowsocksX | Android | iOS App Store | iOS Cydia
------------------- | ------- | ------------ | ------- | ------------- | ---------
-System Proxy       |    Y    |      Y       |    Y    |        N      |     Y
-CHNRoutes          |    Y    |      Y       |    Y    |        Y      |     Y
-PAC Configuration  |    Y    |      Y       |    N    |        N      |     N
-Profile Switching  |    Y    |      Y       |    Y    |        N      |     Y
-QR Code Scan       |    N    |      N       |    Y    |        Y      |     Y
-QR Code Generation |    Y    |      Y       |    N    |        N      |     N
+                   | Windows | ShadowsocksX | qt5 | Android | iOS App Store | iOS Cydia
+------------------ | ------- | ------------ | --- | ------- | ------------- | ---------
+System Proxy       |    Y    |      Y       |  N  |    Y    |        N      |     Y
+CHNRoutes          |    Y    |      Y       |  N  |    Y    |        Y      |     Y
+PAC Configuration  |    Y    |      Y       |  N  |    N    |        N      |     N
+Profile Switching  |    Y    |      Y       |  Y  |    Y    |        N      |     Y
+QR Code Scan       |    N    |      N       |  Y  |    Y    |        Y      |     Y
+QR Code Generation |    Y    |      Y       |  Y  |    N    |        N      |     N
