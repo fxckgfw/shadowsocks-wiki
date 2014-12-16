@@ -57,3 +57,5 @@ These legacy ciphers are either slow or not safe. Do not use them:
 - des-cfb
 - table
 - salsa20-ctr
+
+Notice: not all Shadowsocks versions support support every ciphers.
