@@ -56,7 +56,6 @@ Please open an issue to add to this list.
 
 * [stackscript for linode](https://github.com/clowwindy/shadowsocks/wiki/Setting-Up-Shadowsocks-on-Linode)
 * [Streisand](https://github.com/jlund/streisand) - Sets up a new server running L2TP/IPsec, OpenSSH, OpenVPN, Shadowsocks, Stunnel, and a Tor bridge.
-* [Docker Registry](https://registry.hub.docker.com/u/hbrls/shadowsocks/)
 * [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 
 #### Other clients
