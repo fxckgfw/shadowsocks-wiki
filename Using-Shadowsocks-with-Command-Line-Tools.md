@@ -31,7 +31,7 @@ Then run command with proxychains.
 
 Or
 
-    proxychains4 -q bash
+    proxychains4 bash
     curl https://www.twitter.com/
 
 [1]: http://proxychains.sourceforge.net/
