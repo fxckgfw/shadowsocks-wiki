@@ -30,7 +30,7 @@
 
 #### Windows:
 
-下载安装 OpenSSL for Windows。然后类似 Linux 通过 easy_install 或 pip 来安装。
+下载安装 [OpenSSL for Windows]。然后类似 Linux 通过 easy_install 或 pip 来安装。
 如果你不清楚如何使用 easy_install，也可以直接[下载]，然后用 `python shadowsocks/server.py`
 代替下文的 `ssserver`。
 
@@ -121,6 +121,7 @@ MIT
 [构建状态]:        https://img.shields.io/travis/clowwindy/shadowsocks/master.svg?style=flat
 [图形界面版本]:    https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients
 [Issue Tracker]:  https://github.com/clowwindy/shadowsocks/issues?state=open
+[OpenSSL for Windows]: http://slproweb.com/products/Win32OpenSSL.html
 [PyPI]:           https://pypi.python.org/pypi/shadowsocks
 [PyPI 版本]:       https://img.shields.io/pypi/v/shadowsocks.svg?style=flat
 [Supervisor]:     https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks
