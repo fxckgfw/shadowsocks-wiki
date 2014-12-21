@@ -1,6 +1,6 @@
 [中文版](https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks)
 
-**Notice: from Shadowsocks 2.6, you can run Shadowsocks directly in the background.
+**Notice: from Shadowsocks 2.6, you can run Shadowsocks directly in the background without Supervisor.
 This saves RAM for the extra supervisor process.**
 
     ssserver -c /etc/shadowsocks.json -d start
