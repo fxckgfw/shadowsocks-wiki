@@ -21,9 +21,6 @@ Edit `/etc/shadowsocks.json`
 }
 ```
 
-Debian
-------
-
 Run
 ```
 apt-get update
