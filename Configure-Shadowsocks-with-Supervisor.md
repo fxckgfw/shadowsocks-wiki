@@ -1,6 +1,12 @@
 [中文版](https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks)
 
-If you want to run Shadowsocks in the background, use supervisor.
+Notice: from Shadowsocks 2.6, you can run Shadowsocks directly in the background.
+This saves RAM for the extra supervisor process.
+
+    ssserver -c /etc/shadowsocks.json -d start
+    ssserver -c /etc/shadowsocks.json -d stop
+
+For old versions:
 
 Edit `/etc/shadowsocks.json`
 
