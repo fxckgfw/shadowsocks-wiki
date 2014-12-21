@@ -119,12 +119,9 @@ MIT
 [OpenSSL for Windows]: http://slproweb.com/products/Win32OpenSSL.html
 [PyPI]:           https://pypi.python.org/pypi/shadowsocks
 [PyPI 版本]:       https://img.shields.io/pypi/v/shadowsocks.svg?style=flat
-[Supervisor]:     https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks
 [TCP_FASTOPEN]:   https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open
 [Travis CI]:      https://travis-ci.org/clowwindy/shadowsocks
 [加密方法]:        https://github.com/clowwindy/shadowsocks/wiki/Encryption
 [常见问题]:        https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting
 [邮件列表]:        http://groups.google.com/group/shadowsocks
-[SwitchySharp]:    https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm
-[Chrome 离线安装包]: https://support.google.com/installer/answer/126299?hl=zh-Hans
 [下载]:           https://pypi.python.org/pypi/shadowsocks
