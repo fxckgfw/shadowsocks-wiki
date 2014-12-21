@@ -1,5 +1,5 @@
-**说明： 从 Shadowsocks 2.6 开始，你可以直接在后台运行 Shadowsocks。
-这样省掉了 supervisor 进程占用的内存。**
+**说明： 从 Shadowsocks 2.6 开始，你可以直接在后台运行 Shadowsocks，无需 Supervisor 。
+这样省掉了 Supervisor 进程占用的内存。**
 
     ssserver -c /etc/shadowsocks.json -d start
     ssserver -c /etc/shadowsocks.json -d stop
