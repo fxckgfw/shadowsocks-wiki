@@ -1,5 +1,10 @@
-如果你想在后台运行 Shadowsocks，可以使用 Supervisor，
-它可以方便地监控和控制任何程序，实现开机自动启动和后台运行。
+说明： 从 Shadowsocks 2.6 开始，你可以直接在后台运行 Shadowsocks。
+这样省掉了 supervisor 进程占用的内存。
+
+    ssserver -c /etc/shadowsocks.json -d start
+    ssserver -c /etc/shadowsocks.json -d stop
+
+对于老版本：
 
 编辑 `/etc/shadowsocks.json`
 
