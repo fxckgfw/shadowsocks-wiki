@@ -48,8 +48,7 @@
         "password":"mypassword",
         "timeout":300,
         "method":"aes-256-cfb",
-        "fast_open": false,
-        "workers": 1
+        "fast_open": false
     }
 
 各个字段的意思：
@@ -66,36 +65,32 @@
 | fast_open     | 是否使用 [TCP_FASTOPEN], true / false            |
 | workers       | worker 数量，Unix/Linux 可用，如果不理解含义请不要改 |
 
-在服务器上运行 `ssserver -c /etc/shadowsocks.json` 即可。如果要在后台运行，
-请使用 [supervisor].
+在服务器上：
 
-在本地，用上文的客户端进行相应配置并运行客户端，然后设置浏览器代理。
-如果想直接用命令行，可以运行 `sslocal -c /etc/shadowsocks.json`。
+前台运行：
 
-Chrome 推荐使用 [SwitchySharp] 切换代理设置。把浏览器代理设为下列参数即可：
+    ssserver -c /etc/shadowsocks.json
 
-    协议: socks5
-    地址: 127.0.0.1
-    端口: 你填的 local_port
+后台运行：
 
-如果无法安装 [SwitchySharp]，可以先用下列参数启动 Chrome，强制它使用代理：
+    ssserver -c /etc/shadowsocks.json -d start
+    ssserver -c /etc/shadowsocks.json -d stop
 
-    Chrome.exe --proxy-server="socks5://127.0.0.1:1080" --host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE localhost"
+在客户端上填写和服务器端一样的配置。关于客户端的使用请参见各个客户端的说明。
 
-如果连 Chrome 都无法下载，找人帮你下一个 [Chrome 离线安装包]。
+如果想直接用命令行运行客户端，可以运行 `sslocal -c /etc/shadowsocks.json`。
 
 命令行参数
 ---------
 
-你可以用命令行参数覆盖 `config.json` 中的设置：
+用 `-h` 查看所有参数。你可以用命令行参数覆盖 `config.json` 中的设置：
 
-    sslocal -s server_addr -p server_port -l local_port -k password -m bf-cfb
+    sslocal -s server_name -p server_port -l local_port -k password -m bf-cfb
     ssserver -p server_port -k password -m bf-cfb --workers 2
-    ssserver -c /etc/shadowsocks/config.json
+    ssserver -c /etc/shadowsocks/config.json -d start --pid-file=/tmp/shadowsocks.pid
+    ssserver -c /etc/shadowsocks/config.json -d stop --pid-file=/tmp/shadowsocks.pid
 
-用 `-h` 查看所有参数。
-
-Wiki
+文档
 ----
 
 所有的文档都可以在 Wiki 里找到：
