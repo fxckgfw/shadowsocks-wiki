@@ -1,4 +1,4 @@
-[![PyPI 版本]][PyPI] [![构建状态]][Travis CI] 
+[![PyPI 版本]][PyPI] [![构建状态]][Travis CI] [![Coverage Status]][Coverage]
 
 一个可穿透防火墙的轻量代理。
 
@@ -107,6 +107,8 @@ MIT
 * [Issue Tracker]
 
 
+[Coverage Status]:   http://192.81.132.184/result/shadowsocks
+[Coverage]:          http://192.81.132.184/job/Shadowsocks/ws/htmlcov/index.html
 [Windows]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#windows
 [OS X]:           https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9
 [Android]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#android
