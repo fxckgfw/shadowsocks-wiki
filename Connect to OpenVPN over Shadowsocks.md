@@ -11,4 +11,4 @@ Add these lines to your .ovpn file:
 
 Then connect OpenVPN.
 
-Notice: only [versions that support UDP relay](https://github.com/clowwindy/shadowsocks/wiki/Feature-Comparison-across-Different-Versions) support this feature.
+Notice: only [versions that support UDP relay](https://github.com/shadowsocks/shadowsocks/wiki/Feature-Comparison-across-Different-Versions) support this feature.
