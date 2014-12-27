@@ -41,4 +41,4 @@ shadowsocks                      RUNNING    pid 6929, uptime 0:01:25
 
     supervisorctl restart shadowsocks
 
-注：使用本安装脚本会自动[优化系统参数](https://github.com/clowwindy/shadowsocks/wiki/Optimizing-Shadowsocks)。不过其中 hybla 算法的优化需要[更换内核](https://library.linode.com/custom-instances/pv-grub-howto#sph_debian-7-wheezy)后才能生效。
+注：使用本安装脚本会自动[优化系统参数](https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks)。不过其中 hybla 算法的优化需要[更换内核](https://library.linode.com/custom-instances/pv-grub-howto#sph_debian-7-wheezy)后才能生效。
