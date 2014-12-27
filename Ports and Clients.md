@@ -16,10 +16,10 @@ Please open an issue to add to this list.
 
 #### Linux / Server side
 
-* [shadowsocks](https://github.com/clowwindy/shadowsocks) - Python version
+* [shadowsocks](https://github.com/shadowsocks/shadowsocks) - Python version
 * [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
-* [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs) - Node.js version
+* [shadowsocks-nodejs](https://github.com/shadowsocks/shadowsocks-nodejs) - Node.js version
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Qt GUI fronted
 * [libQtShadowsocks](https://github.com/librehat/libQtShadowsocks) - C++/Qt version library
 * [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
@@ -54,7 +54,7 @@ Please open an issue to add to this list.
 
 #### Deploy scripts
 
-* [stackscript for linode](https://github.com/clowwindy/shadowsocks/wiki/Setting-Up-Shadowsocks-on-Linode)
+* [stackscript for linode](https://github.com/shadowsocks/shadowsocks/wiki/Setting-Up-Shadowsocks-on-Linode)
 * [Streisand](https://github.com/jlund/streisand) - Sets up a new server running L2TP/IPsec, OpenSSH, OpenVPN, Shadowsocks, Stunnel, and a Tor bridge.
 * [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
 
