@@ -54,7 +54,7 @@ salsa20 and chacha20
 
 Install [libsodium](https://github.com/jedisct1/libsodium) >= 1.0.0 if you want to use them.
 
-You can use [this script](https://github.com/clowwindy/shadowsocks/blob/master/tests/libsodium/install.sh) to install it.
+You can use [this script](https://github.com/shadowsocks/shadowsocks/blob/master/tests/libsodium/install.sh) to install it.
 
 Deprecated Ciphers
 ==================
