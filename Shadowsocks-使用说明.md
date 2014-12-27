@@ -94,7 +94,7 @@
 ----
 
 所有的文档都可以在 Wiki 里找到：
-https://github.com/clowwindy/shadowsocks/wiki
+https://github.com/shadowsocks/shadowsocks/wiki
 
 协议
 ----
@@ -109,21 +109,21 @@ MIT
 
 [Coverage Status]:   http://192.81.132.184/result/shadowsocks
 [Coverage]:          http://192.81.132.184/job/Shadowsocks/ws/htmlcov/index.html
-[Windows]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#windows
+[Windows]:        https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#windows
 [OS X]:           https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9
-[Android]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#android
+[Android]:        https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#android
 [Debian sid]:     https://packages.debian.org/unstable/python/shadowsocks
 [iOS]:            https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
-[OpenWRT]:        https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#openwrt
-[构建状态]:        https://img.shields.io/travis/clowwindy/shadowsocks/master.svg?style=flat
-[图形界面版本]:    https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients
-[Issue Tracker]:  https://github.com/clowwindy/shadowsocks/issues?state=open
+[OpenWRT]:        https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#openwrt
+[构建状态]:        https://img.shields.io/travis/shadowsocks/shadowsocks/master.svg?style=flat
+[图形界面版本]:    https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients
+[Issue Tracker]:  https://github.com/shadowsocks/shadowsocks/issues?state=open
 [OpenSSL for Windows]: http://slproweb.com/products/Win32OpenSSL.html
 [PyPI]:           https://pypi.python.org/pypi/shadowsocks
 [PyPI 版本]:       https://img.shields.io/pypi/v/shadowsocks.svg?style=flat
-[TCP_FASTOPEN]:   https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open
-[Travis CI]:      https://travis-ci.org/clowwindy/shadowsocks
-[加密方法]:        https://github.com/clowwindy/shadowsocks/wiki/Encryption
-[常见问题]:        https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting
+[TCP_FASTOPEN]:   https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open
+[Travis CI]:      https://travis-ci.org/shadowsocks/shadowsocks
+[加密方法]:        https://github.com/shadowsocks/shadowsocks/wiki/Encryption
+[常见问题]:        https://github.com/shadowsocks/shadowsocks/wiki/Troubleshooting
 [邮件列表]:        http://groups.google.com/group/shadowsocks
 [下载]:           https://pypi.python.org/pypi/shadowsocks
