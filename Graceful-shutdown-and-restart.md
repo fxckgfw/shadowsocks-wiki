@@ -6,4 +6,4 @@ If you are using workers, send `SIGQUIT` to master process.
 
 On Windows, please use `SIGTERM` instead.
 
-Notice: only [some versions](https://github.com/clowwindy/shadowsocks/wiki/Feature-Comparison-across-Different-Versions) support this feature.
+Notice: only [some versions](https://github.com/shadowsocks/shadowsocks/wiki/Feature-Comparison-across-Different-Versions) support this feature.
