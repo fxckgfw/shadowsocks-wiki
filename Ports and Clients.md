@@ -17,7 +17,7 @@ Please open an issue to add to this list.
 #### Linux / Server side
 
 * [shadowsocks](https://github.com/shadowsocks/shadowsocks) - Python version
-* [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
+* [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) - C libev version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
 * [shadowsocks-nodejs](https://github.com/shadowsocks/shadowsocks-nodejs) - Node.js version
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Qt GUI fronted
@@ -40,7 +40,7 @@ Please open an issue to add to this list.
 
 #### OpenWRT
 
-* [shadowsocks-libev](https://github.com/madeye/shadowsocks-libev) - C libev version
+* [openwrt-shadowsocks](https://github.com/shadowsocks/openwrt-shadowsocks) - LuCI package for shadowsocks-libev
 * [shadowsocks-tiny](https://github.com/zhao-gang/shadowsocks-tiny) - well integrated with OpenWrt
 
 #### Experimental
