@@ -31,6 +31,7 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
     * [OpenVPN over Shadowsocks](https://github.com/shadowsocks/shadowsocks/wiki/Connect-to-OpenVPN-over-Shadowsocks)
     * [Graceful shutdown and restart](https://github.com/shadowsocks/shadowsocks/wiki/Graceful-shutdown-and-restart)
     * [Change Server on the Fly](https://github.com/shadowsocks/shadowsocks/wiki/Change-Server-on-the-Fly)
+    * [Brute Force Crackers](https://github.com/shadowsocks/shadowsocks/wiki/Ban-Brute-Force-Crackers)
 
 ### Latest Release
 
