@@ -1,6 +1,6 @@
 Shadowsocks 2.6.2+ output the IPs that try to brute force crack your password.
 
-You can use [autoban.py](https://github.com/shadowsocks/shadowsocks/tree/master/utils) to ban them.
+You can use [utils/autoban.py](https://github.com/shadowsocks/shadowsocks/tree/master/utils) to ban them.
 
     python autoban.py < /var/log/shadowsocks.log
 
