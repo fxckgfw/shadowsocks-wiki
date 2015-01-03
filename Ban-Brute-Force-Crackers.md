@@ -9,6 +9,6 @@ attack. Default is 3.
 
 To continue watching for the log file:
 
-    nohup tail -f /var/log/shadowsocks.log | python autoban.py >log 2>log &
+    nohup tail -F /var/log/shadowsocks.log | python autoban.py >log 2>log &
 
 Use with caution. Avoid to ban yourself.
