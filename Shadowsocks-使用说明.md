@@ -107,8 +107,8 @@ MIT
 * [Issue Tracker]
 
 
-[Coverage Status]:   http://192.81.132.184/result/shadowsocks
-[Coverage]:          http://192.81.132.184/job/Shadowsocks/ws/htmlcov/index.html
+[Coverage Status]:   https://jenkins.shadowvpn.org/result/shadowsocks
+[Coverage]:          https://jenkins.shadowvpn.org/job/Shadowsocks/ws/htmlcov/index.html
 [Windows]:        https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#windows
 [OS X]:           https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9
 [Android]:        https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#android
