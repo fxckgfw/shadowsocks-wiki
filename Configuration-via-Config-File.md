@@ -36,3 +36,7 @@ To run in the background:
 
     ssserver -c /etc/shadowsocks.json -d start
     ssserver -c /etc/shadowsocks.json -d stop
+
+
+[Encryption]:        https://github.com/shadowsocks/shadowsocks/wiki/Encryption
+[TCP_FASTOPEN]:      https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open
