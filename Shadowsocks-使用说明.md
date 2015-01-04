@@ -24,7 +24,7 @@ shadowsocks
 
 #### Windows:
 
-参见 [Windows 上安装服务器]
+参见 [在 Windows 上安装服务器]
 
 ### 使用
 
@@ -73,7 +73,7 @@ Bugs and Issues
 [Encryption]:        https://github.com/shadowsocks/shadowsocks/wiki/Encryption
 [iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
 [Issue Tracker]:     https://github.com/shadowsocks/shadowsocks/issues?state=open
-[Windows 上安装服务器]: https://github.com/shadowsocks/shadowsocks/wiki/Install-Shadowsocks-Server-on-Windows
+[在 Windows 上安装服务器]: https://github.com/shadowsocks/shadowsocks/wiki/Install-Shadowsocks-Server-on-Windows
 [Mailing list]:      https://groups.google.com/group/shadowsocks
 [OpenWRT]:           https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#openwrt
 [OS X]:              https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help
