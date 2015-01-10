@@ -54,7 +54,12 @@ salsa20 and chacha20
 
 Install [libsodium](https://github.com/jedisct1/libsodium) >= 1.0.0 if you want to use them.
 
-You can use [this script](https://github.com/shadowsocks/shadowsocks/blob/master/tests/libsodium/install.sh) to install it.
+    apt-get install build-essential
+    wget https://github.com/jedisct1/libsodium/releases/download/1.0.1/libsodium-1.0.1.tar.gz
+    tar xf libsodium-1.0.1.tar.gz
+    cd libsodium-1.0.1
+    ./configure && make -j2 && make install
+    ldconfig
 
 Deprecated Ciphers
 ==================
