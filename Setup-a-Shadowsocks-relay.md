@@ -5,7 +5,7 @@ If you want your client connected to a Japan VPS, but you want a US IP.
 ### Easy version:
 
 1. Setup Shadowsocks server as usual on US VPS.
-2. On Japan VPS, enable forwarding. Replace `US_VPS_IP` and `JP_VPS_IP` with actual IP:
+2. On Japan VPS, enable forwarding. Replace `US_VPS_IP` and `JAPAN_VPS_IP` with actual IP:
 
         sudo su
         echo 1 > /proc/sys/net/ipv4/ip_forward
