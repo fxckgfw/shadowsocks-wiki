@@ -1,5 +1,7 @@
 Please open an issue to add to this list. 
 
+- [Version Feature Comparison](https://github.com/shadowsocks/shadowsocks/wiki/Feature-Comparison-across-Different-Versions)
+
 #### Windows
 
 * [Shadowsocks for Windows](https://github.com/shadowsocks/shadowsocks-csharp) - Shadowsocks client for Windows - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
