@@ -4,22 +4,18 @@ Please open an issue to add to this list.
 
 * [Shadowsocks for Windows](https://github.com/shadowsocks/shadowsocks-csharp) - Shadowsocks client for Windows - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
-* [Nevermore](https://github.com/nihgwu/Nevermore) - Powered by node-webkit - [Download](https://github.com/nihgwu/Nevermore/releases)
-* [gShadowsocks](https://github.com/kawaiiushio/gShadowsocks) - Powered by shadowsocks-nodejs
 
 #### OS X
 
-* [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Native Shadowsocks for Mac - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
-* [GoAgentX](https://github.com/ohdarling/GoAgentX) - OSX client, with GUI - [Download](https://github.com/ohdarling/GoAgentX/releases)
-* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
+* [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Shadowsocks client for Mac - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
+* [GoAgentX](https://github.com/ohdarling/GoAgentX) - Supports multiple protocols - [Download](https://github.com/ohdarling/GoAgentX/releases)
 
 #### Linux / Server side
 
 * [shadowsocks](https://github.com/shadowsocks/shadowsocks) - Python version
 * [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) - C libev version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
-* [shadowsocks-nodejs](https://github.com/shadowsocks/shadowsocks-nodejs) - Node.js version
+* [cow](https://github.com/cyfdecyf/cow) - Powerful HTTP proxy, detecting blocked sites automatically
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Qt GUI fronted
 * [libQtShadowsocks](https://github.com/librehat/libQtShadowsocks) - C++/Qt version library
 * [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
@@ -60,7 +56,14 @@ Please open an issue to add to this list.
 
 #### Other clients
 
-* [cow](https://github.com/cyfdecyf/cow) - Powerful HTTP proxy, detecting blocked sites automatically
 * [ShadowDNS](https://github.com/clowwindy/ShadowDNS) - DNS Forwarder powered by Shadowsocks
 * [lightsocks](https://github.com/clowwindy/lightsocks) - Transparent TCP proxy
 * [pobi](https://github.com/jackyz/pobi)
+
+
+### Deprecated
+
+* [shadowsocks-nodejs](https://github.com/shadowsocks/shadowsocks-nodejs) - Node.js version
+* [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
+* [Nevermore](https://github.com/nihgwu/Nevermore) - Powered by node-webkit - [Download](https://github.com/nihgwu/Nevermore/releases)
+* [gShadowsocks](https://github.com/kawaiiushio/gShadowsocks) - Powered by shadowsocks-nodejs
