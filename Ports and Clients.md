@@ -27,7 +27,6 @@ Please open an issue to add to this list.
 #### Android
 
 * [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
-* [fqrouter](https://github.com/fqrouter/fqrouter)
 
 <a id="server-side"></a>
 
@@ -36,12 +35,6 @@ Please open an issue to add to this list.
 * [openwrt-shadowsocks](https://github.com/shadowsocks/openwrt-shadowsocks) - LuCI package for shadowsocks-libev
 * [shadowsocks-tiny](https://github.com/zhao-gang/shadowsocks-tiny) - well integrated with OpenWrt
 
-#### Deploy scripts
-
-* [stackscript for Linode](https://github.com/shadowsocks/shadowsocks/wiki/Setting-Up-Shadowsocks-on-Linode)
-* [Streisand](https://github.com/jlund/streisand) - Sets up a new server running L2TP/IPsec, OpenSSH, OpenVPN, Shadowsocks, Stunnel, and a Tor bridge.
-* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
-
 #### Related
 
 * [cow](https://github.com/cyfdecyf/cow) - Powerful HTTP proxy, detecting blocked sites automatically
@@ -49,13 +42,18 @@ Please open an issue to add to this list.
 * [ChinaDNS](https://github.com/clowwindy/ChinaDNS) - Fix weird things with DNS in China
 * [ShadowVPN](https://github.com/clowwindy/ShadowVPN) - A fast, safe VPN based on libsodium
 
+#### Deploy scripts
+
+* [stackscript for Linode](https://github.com/shadowsocks/shadowsocks/wiki/Setting-Up-Shadowsocks-on-Linode)
+* [Streisand](https://github.com/jlund/streisand) - Sets up a new server running L2TP/IPsec, OpenSSH, OpenVPN, Shadowsocks, Stunnel, and a Tor bridge.
+* [ansible-shadowsocks](https://github.com/jlund/ansible-shadowsocks) - An [Ansible](http://www.ansibleworks.com/) role that automates setting up a Shadowsocks server
+
 #### Experimental
 
 * [shadowsocks-ruby](https://github.com/clowwindy/shadowsocks-ruby) Ruby version
 * [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
 * [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version
 * [shadowsocks-gtk](https://github.com/apporc/shadowsocks-gtk) - Python GTK version
-* [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
 * [shadowsocks-rust](https://github.com/zonyitoo/shadowsocks-rust) - Rust version
 
 #### Deprecated or maintenance discontinued
@@ -63,9 +61,11 @@ Please open an issue to add to this list.
 * [shadowsocks-nodejs](https://github.com/shadowsocks/shadowsocks-nodejs) - Node.js version
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
+* [shadowsocks-erlang](https://github.com/Yongke/shadowsocks-erlang) - Erlang version
 * [Nevermore](https://github.com/nihgwu/Nevermore) - Powered by node-webkit - [Download](https://github.com/nihgwu/Nevermore/releases)
 * [gShadowsocks](https://github.com/kawaiiushio/gShadowsocks) - Powered by shadowsocks-nodejs
 * [shadowsocks-libuv](https://github.com/dndx/shadowsocks-libuv) - C libuv version
 * [lightsocks](https://github.com/clowwindy/lightsocks) - Transparent TCP proxy
 * [ShadowDNS](https://github.com/clowwindy/ShadowDNS) - DNS Forwarder powered by Shadowsocks
 * [pobi](https://github.com/jackyz/pobi)
+* [fqrouter](https://github.com/fqrouter/fqrouter)
