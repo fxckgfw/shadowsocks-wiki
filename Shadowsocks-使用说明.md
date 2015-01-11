@@ -41,7 +41,7 @@
 
 推荐使用以下 VPS：
 
-- [Digital Ocean] 自带的内核无需自己编译模块即可使用 [tcp_hybla]
+- [Digital Ocean] 自带的内核无需自己编译模块即可使用 [hybla] 算法
 - [Linode] 功能相对完善
 - [Bandwagon Host] 提供廉价小内存选项
 
@@ -92,5 +92,5 @@ Bugs and Issues
 [Windows]:           https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#windows
 [Digital Ocean]:     https://www.digitalocean.com/?refcode=b1cddd149721
 [Linode]:            https://www.linode.com/?r=e7932c8b03f9abc8aab71663b90b689a676402d1
-[tcp_hybla]:         https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks
+[hybla]:             https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks
 [Bandwagon Host]:    https://bandwagonhost.com/aff.php?pid=19
