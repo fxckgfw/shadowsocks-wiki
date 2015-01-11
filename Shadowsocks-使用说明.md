@@ -34,6 +34,17 @@
 
 用 `-h` 查看所有参数。你也可以使用 [配置文件] 进行配置。
 
+服务器搭建
+--------
+
+建议选择最新版 Debian 或 Ubuntu 作为服务器，除非有明确理由，不建议用 CentOS。
+
+推荐使用以下 VPS：
+
+- [Digital Ocean] 自带的内核无需自己编译模块即可使用 [tcp_hybla]
+- [Linode] 功能相对完善
+- [Bandwagon Host] 提供廉价小内存选项
+
 客户端
 ------
 
@@ -79,3 +90,7 @@ Bugs and Issues
 [Troubleshooting]:   https://github.com/shadowsocks/shadowsocks/wiki/Troubleshooting
 [Wiki]:              https://github.com/shadowsocks/shadowsocks/wiki
 [Windows]:           https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#windows
+[Digital Ocean]:     https://www.digitalocean.com/?refcode=b1cddd149721
+[Linode]:            https://www.linode.com/?r=e7932c8b03f9abc8aab71663b90b689a676402d1
+[tcp_hybla]:         https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks
+[Bandwagon Host]:    https://bandwagonhost.com/aff.php?pid=19
