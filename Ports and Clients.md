@@ -2,7 +2,7 @@ Please open an issue to add to this list.
 
 #### Windows
 
-* [Shadowsocks for Windows](https://github.com/shadowsocks/shadowsocks-csharp) - Native Shadowsocks for Windows - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
+* [Shadowsocks for Windows](https://github.com/shadowsocks/shadowsocks-csharp) - Shadowsocks client for Windows - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 * [Nevermore](https://github.com/nihgwu/Nevermore) - Powered by node-webkit - [Download](https://github.com/nihgwu/Nevermore/releases)
