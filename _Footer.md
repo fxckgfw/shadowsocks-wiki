@@ -1,4 +1,4 @@
-[Wiki Home](https://github.com/clowwindy/shadowsocks/wiki)
-[Tutorial](https://github.com/shadowsocks/shadowsocks/blob/master/README.md)
-[Download](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients)
-[Troubleshooting](https://github.com/shadowsocks/shadowsocks/wiki/Troubleshooting)
+- [Wiki Home](https://github.com/clowwindy/shadowsocks/wiki)
+- [Tutorial](https://github.com/shadowsocks/shadowsocks/blob/master/README.md)
+- [Download](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients)
+- [Troubleshooting](https://github.com/shadowsocks/shadowsocks/wiki/Troubleshooting)
