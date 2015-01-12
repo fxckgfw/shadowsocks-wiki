@@ -33,6 +33,7 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
     * [Graceful shutdown and restart](https://github.com/shadowsocks/shadowsocks/wiki/Graceful-shutdown-and-restart)
     * [Change Server on the Fly](https://github.com/shadowsocks/shadowsocks/wiki/Change-Server-on-the-Fly)
     * [Ban Brute Force Crackers](https://github.com/shadowsocks/shadowsocks/wiki/Ban-Brute-Force-Crackers)
+    * [Block Connection to localhost](https://github.com/shadowsocks/shadowsocks/wiki/Block-Connection-to-localhost)
 
 ### Latest Release
 
