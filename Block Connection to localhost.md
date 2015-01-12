@@ -1,4 +1,4 @@
-From 2.6.3, you can forbid the server to connect to some IP, i.e. 127.0.0.1.
+From 2.6.3, you can prevent the server from connecting to some IP like 127.0.0.1.
 
     ssserver -c /etc/shadowsocks.json --forbidden-ip 127.0.0.1,::1
 
