@@ -18,7 +18,6 @@ Please open an issue to add to this list.
 * [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) - C libev version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Qt GUI client frontend
-* [libQtShadowsocks](https://github.com/librehat/libQtShadowsocks) - C++/Qt version library
 * [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
 
 #### iOS
@@ -52,6 +51,7 @@ Please open an issue to add to this list.
 
 #### Experimental
 
+* [libQtShadowsocks](https://github.com/librehat/libQtShadowsocks) - C++/Qt version library
 * [shadowsocks-ruby](https://github.com/clowwindy/shadowsocks-ruby) Ruby version
 * [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
 * [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version
