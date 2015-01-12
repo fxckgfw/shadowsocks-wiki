@@ -20,7 +20,7 @@ System Proxy       |    Y    |      Y       |  N  |    Y    |        N      |   
 CHNRoutes          |    Y    |      Y       |  N  |    Y    |        Y      |     Y
 PAC Configuration  |    Y    |      Y       |  N  |    N    |        N      |     N
 Profile Switching  |    Y    |      Y       |  Y  |    Y    |        N      |     Y
-QR Code Scan       |    N    |      N       |  Y  |    Y    |        Y      |     Y
+QR Code Scan       |    N    |      N       |  N  |    Y    |        Y      |     Y
 QR Code Generation |    Y    |      Y       |  Y  |    N    |        N      |     N
 
 [Python]: https://github.com/shadowsocks/shadowsocks
