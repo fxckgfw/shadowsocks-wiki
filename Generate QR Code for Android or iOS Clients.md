@@ -1,5 +1,7 @@
 Shadowsocks Android and iOS supports QR Code configuration.
 
+Update: now you can also scan QR code on Windows and OS X.
+
 Protocol
 ========
 
