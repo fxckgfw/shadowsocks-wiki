@@ -8,3 +8,4 @@ Notice: this page is for server side. If you are looking for clients, visit [cli
 ````
  pip install shadowsocks
 ````
+5. If you want to use `salsa20` or `chacha20` encryption, download [libsodium](http://download.libsodium.org/libsodium/releases/) and put dll files (without path) into `C:\Windows\System32` (32bit) or `C:\Windows\SysWOW64` (64bit).
