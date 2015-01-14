@@ -1,2 +1,2 @@
-| [Wiki](https://github.com/clowwindy/shadowsocks/wiki) | [Download](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients) | [Tutorial](https://github.com/shadowsocks/shadowsocks/blob/master/README.md) | [Configuration](https://github.com/shadowsocks/shadowsocks/wiki/Configuration-via-Config-File) | [Troubleshooting](https://github.com/shadowsocks/shadowsocks/wiki/Troubleshooting) |
---- | --- | --- | --- | ---
+| [Download](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients) | [Wiki](https://github.com/clowwindy/shadowsocks/wiki) | [Tutorial](https://github.com/shadowsocks/shadowsocks/blob/master/README.md) | [Troubleshooting](https://github.com/shadowsocks/shadowsocks/wiki/Troubleshooting) |
+--- | --- | --- | --- 
