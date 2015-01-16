@@ -1,4 +1,4 @@
-Notice: this page is for server side. If you are looking for clients, visit [clients](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#windows).
+Notice: this page is for server side. If you are looking for clients, visit [clients](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#windows). If you are looking for setting up server on Linux, visit [README](https://github.com/shadowsocks/shadowsocks/blob/master/README.md).
 
 1. Download and install [Python for Windows](https://www.python.org/downloads/windows/), you can download x86-64 MSI installer in 64bit Windows.
 2. During installation you should install `pip`  
