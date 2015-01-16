@@ -9,17 +9,17 @@
 
 ### 安装
 
-#### Debian / Ubuntu:
+Debian / Ubuntu:
 
     apt-get install python-pip
     pip install shadowsocks
 
-#### CentOS:
+CentOS:
 
     yum install python-setuptools && easy_install pip
     pip install shadowsocks
 
-#### Windows:
+Windows:
 
 参见 [在 Windows 上安装服务器]
 
@@ -42,7 +42,7 @@
 推荐使用以下 VPS：
 
 - [Digital Ocean] 自带的内核无需自己编译模块即可使用 [hybla] 算法
-- [Linode] 功能相对完善
+- [Linode] 功能相对完善，机房选择较多
 - [Bandwagon Host] 提供廉价小内存选项
 
 客户端
