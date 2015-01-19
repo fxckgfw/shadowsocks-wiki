@@ -51,7 +51,7 @@ Please open an issue to add to this list.
 
 #### Experimental
 
-* [libQtShadowsocks](https://github.com/librehat/libQtShadowsocks) - C++/Qt version library
+* [libQtShadowsocks](https://github.com/librehat/libQtShadowsocks) - C++/Qt version library and shadowsocks-libqss, a server based on the library
 * [shadowsocks-ruby](https://github.com/Sen/shadowsocks-ruby) Ruby version
 * [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
 * [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version
