@@ -14,7 +14,7 @@ UDP Relay         |     Y     |      Y      |      N    |     Y
 
 ## Clients
 
-                   | [Windows] | [ShadowsocksX] | [qt5] | [Android] | [iOS App Store] | [iOS Cydia]
+                   | [Windows] | [ShadowsocksX] | [Qt5] | [Android] | [iOS App Store] | [iOS Cydia]
 ------------------ | ------- | ------------ | --- | ------- | ------------- | ---------
 System Proxy       |    Y    |      Y       |  N  |    Y    |        N      |     Y
 CHNRoutes          |    Y    |      Y       |  N  |    Y    |        Y      |     Y
