@@ -37,7 +37,7 @@ Windows:
 服务器搭建
 --------
 
-建议选择最新版 Debian 或 Ubuntu 作为服务器，除非有明确理由，不建议用 CentOS。
+建议选择 Ubuntu 14.04 LTS 作为服务器，除非有明确理由，不建议用 CentOS。
 
 推荐使用以下 VPS：
 
