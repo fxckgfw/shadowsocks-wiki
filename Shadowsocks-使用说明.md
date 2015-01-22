@@ -37,7 +37,7 @@ Windows:
 服务器搭建
 --------
 
-建议选择 Ubuntu 14.04 LTS 作为服务器，除非有明确理由，不建议用 CentOS。
+建议选择 Ubuntu 14.04 LTS 作为服务器以便使用 [TCP Fast Open]。除非有明确理由，不建议用对新手不友好的 CentOS。
 
 推荐使用以下 VPS：
 
@@ -80,6 +80,7 @@ Bugs and Issues
 [Debian sid]:        https://packages.debian.org/unstable/python/shadowsocks
 [iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
 [Issue Tracker]:     https://github.com/shadowsocks/shadowsocks/issues?state=open
+[TCP Fast Open]:     https://github.com/clowwindy/shadowsocks/wiki/TCP-Fast-Open
 [在 Windows 上安装服务器]: https://github.com/shadowsocks/shadowsocks/wiki/Install-Shadowsocks-Server-on-Windows
 [Mailing list]:      https://groups.google.com/group/shadowsocks
 [OpenWRT]:           https://github.com/shadowsocks/openwrt-shadowsocks
