@@ -42,7 +42,7 @@ Windows:
 推荐使用以下 VPS：
 
 - [Digital Ocean] 自带的内核无需自己编译模块即可使用 [hybla] 算法
-- [Linode] 功能相对完善，机房选择较多
+- [Linode] 功能强大，机房较多
 - [Bandwagon Host] 提供廉价小内存选项
 
 客户端
