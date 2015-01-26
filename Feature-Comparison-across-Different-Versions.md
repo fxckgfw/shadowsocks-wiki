@@ -21,7 +21,7 @@ CHNRoutes          |    Y    |      Y       |  N  |    Y    |        Y      |   
 PAC Configuration  |    Y    |      Y       |  N  |    N    |        N      |     N
 Profile Switching  |    Y    |      Y       |  Y  |    Y    |        N      |     Y
 QR Code Scan       |    Y    |      Y       |  N  |    Y    |        Y      |     Y
-QR Code Generation |    Y    |      Y       |  Y  |    N    |        N      |     N
+QR Code Generation |    Y    |      Y       |  Y  |    N    |        N      |     Y
 
 [Python]: https://github.com/shadowsocks/shadowsocks
 [libev]: https://github.com/shadowsocks/shadowsocks-libev
