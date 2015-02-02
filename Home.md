@@ -25,6 +25,7 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
     * [TCP Fast Open](https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open)
     * [Using Workers](https://github.com/shadowsocks/shadowsocks/wiki/Workers)
 - Advanced Features
+    * [Securing Public Server](https://github.com/shadowsocks/shadowsocks/wiki/Securing-Public-Shadowsocks-Server)
     * [Convert Shadowsocks into an HTTP proxy](https://github.com/shadowsocks/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy)
     * [Using Shadowsocks with Command Line Tools](https://github.com/shadowsocks/shadowsocks/wiki/Using-Shadowsocks-with-Command-Line-Tools)
     * [Setup a Shadowsocks Relay](https://github.com/shadowsocks/shadowsocks/wiki/Setup-a-Shadowsocks-relay)
