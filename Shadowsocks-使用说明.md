@@ -25,12 +25,19 @@ Windows:
 
 ### 使用
 
-    ssserver -p 8000 -k password -m rc4-md5
+    ssserver -p 443 -k password -m rc4-md5
 
 如果要后台运行：
 
-    ssserver -p 8000 -k password -m rc4-md5 -d start
-    ssserver -p 8000 -k password -m rc4-md5 -d stop
+    sudo ssserver -p 443 -k password -m rc4-md5 --user nobody -d start
+
+如果要停止：
+
+    sudo ssserver -d stop
+
+如果要检查日志：
+
+    sudo less /var/log/shadowsocks.log
 
 用 `-h` 查看所有参数。你也可以使用 [配置文件] 进行配置。
 
