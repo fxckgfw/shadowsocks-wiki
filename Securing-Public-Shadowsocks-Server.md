@@ -1,31 +1,33 @@
 If you share your server with strangers, you need to be careful.
 
-1. Limit bandwidth
+1. [Optimize your server](https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks)
+
+2. Limit bandwidth
 
         apt-get install wondershaper
         # limit bandwidth to 10Mb/10Mb on eth0
         wondershaper eth0 10000 10000
 
-2. Prevent ssh password cracking
+3. Prevent ssh password cracking
 
         apt-get install denyhosts
 
-3. [Prevent Shadowsocks password cracking](https://github.com/shadowsocks/shadowsocks/wiki/Ban-Brute-Force-Crackers)
+4. [Prevent Shadowsocks password cracking](https://github.com/shadowsocks/shadowsocks/wiki/Ban-Brute-Force-Crackers)
 
-4. [Block connection to localhost](https://github.com/shadowsocks/shadowsocks/wiki/Block-Connection-to-localhost)
+5. [Block connection to localhost](https://github.com/shadowsocks/shadowsocks/wiki/Block-Connection-to-localhost)
 
-5. Run Shadowsocks server as nonroot user
+6. Run Shadowsocks server as nonroot user
 
         sudo useradd ssuser
         sudo ssserver [other options] --user ssuser
 
-6. Block traffic to non-HTTP port
+7. Block traffic to non-HTTP port
 
         iptables -t filter -m owner --uid-owner ssuser -A OUTPUT -p tcp --dport 80 -j ACCEPT
         iptables -t filter -m owner --uid-owner ssuser -A OUTPUT -p tcp --dport 443 -j ACCEPT
         iptables -t filter -m owner --uid-owner ssuser -A OUTPUT -p tcp -j REJECT --reject-with tcp-reset
 
-7. Block BitTorrent trackers
+8. Block BitTorrent trackers
 
         apt-get install nginx
 
