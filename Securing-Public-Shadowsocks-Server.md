@@ -34,7 +34,7 @@ If you share your server with strangers, you need to be careful.
    Edit nginx configuration:
 
         server {
-            listen 127.0.0.1:3128;
+            listen 0.0.0.0:3128;
             resolver 8.8.8.8;
             location / {
                 set $upstream_host $host;
@@ -52,5 +52,5 @@ If you share your server with strangers, you need to be careful.
 
   Redirect 80 port to nginx:
 
-        iptables -t nat -m owner --uid-owner http-ss -A OUTPUT -p tcp --dport 80 -j REDIRECT --to-port 3128
+        iptables -t nat -m owner --uid-owner ssuser -A OUTPUT -p tcp --dport 80 -j REDIRECT --to-port 3128
 
