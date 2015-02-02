@@ -21,7 +21,7 @@ CentOS:
 
 Windows:
 
-参见 [在 Windows 上安装服务器]
+参见 [在 Windows 上安装服务端]
 
 ### 使用
 
