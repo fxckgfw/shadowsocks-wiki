@@ -1,4 +1,4 @@
-From 2.6.7, this is default. If you don't want it, use `--forbidden-ip=""`.
+From 2.6.7, localhost is blocked by default. If you don't want it, use `--forbidden-ip=""`.
 
 From 2.6.3, you can prevent the server from connecting to some IP like 127.0.0.1.
 
