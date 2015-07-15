@@ -4,12 +4,12 @@ Please open an issue to add to this list.
 
 #### Windows
 
-* [Shadowsocks for Windows](https://github.com/shadowsocks/shadowsocks-csharp) - Shadowsocks client for Windows - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
+* [Shadowsocks for Windows](https://github.com/shadowsocks/shadowsocks-csharp) - Shadowsocks client for Windows - [Download](https://github.com/shadowsocks/shadowsocks-csharp/releases)
 * [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
 
 #### OS X
 
-* [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Shadowsocks client for Mac - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
+* [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Shadowsocks client for Mac - [Download](https://github.com/shadowsocks/shadowsocks-iOS/releases)
 * [GoAgentX](https://github.com/ohdarling/GoAgentX) - Supports multiple protocols - [Download](https://github.com/ohdarling/GoAgentX/releases)
 
 #### Linux / Server side
