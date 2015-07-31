@@ -10,7 +10,6 @@ Please open an issue to add to this list.
 #### OS X
 
 * [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/) - Shadowsocks client for Mac - [Download](https://github.com/shadowsocks/shadowsocks-iOS/releases)
-* [GoAgentX](https://github.com/ohdarling/GoAgentX) - Supports multiple protocols - [Download](https://github.com/ohdarling/GoAgentX/releases)
 
 #### Linux / Server side
 
@@ -34,7 +33,6 @@ Please open an issue to add to this list.
 #### OpenWRT
 
 * [openwrt-shadowsocks](https://github.com/shadowsocks/openwrt-shadowsocks) - LuCI package for shadowsocks-libev
-* [shadowsocks-tiny](https://github.com/zhao-gang/shadowsocks-tiny) - well integrated with OpenWrt
 
 #### Related
 
@@ -72,3 +70,5 @@ Please open an issue to add to this list.
 * [ShadowDNS](https://github.com/clowwindy/ShadowDNS) - DNS Forwarder powered by Shadowsocks
 * [pobi](https://github.com/jackyz/pobi)
 * [fqrouter](https://github.com/fqrouter/fqrouter)
+* [GoAgentX](https://github.com/ohdarling/GoAgentX) - Supports multiple protocols - [Download](https://github.com/ohdarling/GoAgentX/releases)
+* [shadowsocks-tiny](https://github.com/zhao-gang/shadowsocks-tiny)
