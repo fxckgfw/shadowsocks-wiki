@@ -62,9 +62,9 @@ cli.bind('/tmp/client.sock')  # address of the client
 cli.sendto('ping', '/var/run/shadowsocks-manager.sock')  # address of Shadowsocks manager
 cli.recvfrom(1506)  # You'll receive a pong
 
-cli.send(b'add: {"server_port":8001, "password":"7cd308cc059"}')
+cli.sendto(b'add: {"server_port":8001, "password":"7cd308cc059"}', '/var/run/shadowsocks-manager.sock')
 
-cli.send(b'remove: {"server_port":8001}')
+cli.sendto(b'remove: {"server_port":8001}', '/var/run/shadowsocks-manager.sock')
 
 while True:
     print(cli.recvfrom(1506))  # when data is transferred on Shadowsocks, you'll receive stat info every 10 seconds
