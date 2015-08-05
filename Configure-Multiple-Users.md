@@ -14,4 +14,4 @@ You can use different passwords on different ports like this:
         "method": "aes-256-cfb"
     }
 
-Notice: only [some versions](https://github.com/shadowsocks/shadowsocks/wiki/Feature-Comparison-across-Different-Versions) support this feature.
+If you want to develop a user management system, check the [Manager API](https://github.com/shadowsocks/shadowsocks/wiki/Manage-Multiple-Users).
