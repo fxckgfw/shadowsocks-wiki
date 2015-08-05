@@ -15,6 +15,7 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
     * [OpenWRT](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#openwrt)
 - [Optimizing Shadowsocks](https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks)
 - Configuration
+    * [Manage Multiple Ports](https://github.com/shadowsocks/shadowsocks/wiki/Manage-Multiple-Ports)
     * [Configuration via Config File](https://github.com/shadowsocks/shadowsocks/wiki/Configuration-via-Config-File)
     * [Generate QR Code for Android or iOS Clients](https://github.com/clowwindy/shadowsocks/wiki/Generate-QR-Code-for-Android-or-iOS-Clients)
     * [Configure Multiple Users](https://github.com/shadowsocks/shadowsocks/wiki/Configure-Multiple-Users)
