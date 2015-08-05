@@ -1,13 +1,13 @@
-Note: this feature is currently in progress on `manager` branch and not released yet.
+Note: this feature is currently in progress on `manager` branch and has not been released yet.
 
-If you want to develop a user management system, Shadowsocks provides an API that allows you to add/remove ports on the fly, as well as get transfer statistics from Shadowsocks.
+If you want to build a user management system, Shadowsocks provides an API that allows you to add/remove ports on the fly, as well as get transfer statistics from Shadowsocks.
 
 If you only want to add multiple users without the on the fly feature, you can check [this tutorial](https://github.com/shadowsocks/shadowsocks/wiki/Configure-Multiple-Users).
 
 Setup
 -----
 
-Turn on manager API by specifying `--manager-address`, which is either a Unix socket or an IP address:
+Enable manager API by specifying `--manager-address`, which is either a Unix socket or an IP address:
 ```
 # Use a Unix socket
 ssserver --manager-address /var/run/shadowsocks-manager.sock -c tests/server-multi-passwd.json
