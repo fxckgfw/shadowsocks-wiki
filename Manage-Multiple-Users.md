@@ -58,8 +58,8 @@ Here's code that demonstrates how to talk to the Shadowsocks server:
 import socket
 
 cli = socket.socket(socket.AF_UNIX, socket.SOCK_DGRAM)
-cli.bind('/tmp/client.sock')
-cli.sendto('ping', '/tmp/test.sock')
+cli.bind('/tmp/client.sock')  # address of the client
+cli.sendto('ping', '/var/run/shadowsocks-manager.sock')  # address of Shadowsocks manager
 cli.recvfrom(1506)  # You'll receive a pong
 
 cli.send(b'add: {"server_port":8001, "password":"7cd308cc059"}')
@@ -67,5 +67,5 @@ cli.send(b'add: {"server_port":8001, "password":"7cd308cc059"}')
 cli.send(b'remove: {"server_port":8001}')
 
 while True:
-    print(cli.recvfrom(1506))  # When data is transferred on Shadowsocks, you'll receive stat info every 10 seconds
+    print(cli.recvfrom(1506))  # when data is transferred on Shadowsocks, you'll receive stat info every 10 seconds
 ```
