@@ -15,7 +15,6 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
     * [OpenWRT](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#openwrt)
 - [Optimizing Shadowsocks](https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks)
 - Configuration
-    * [Manage Multiple Ports](https://github.com/shadowsocks/shadowsocks/wiki/Manage-Multiple-Ports)
     * [Configuration via Config File](https://github.com/shadowsocks/shadowsocks/wiki/Configuration-via-Config-File)
     * [Generate QR Code for Android or iOS Clients](https://github.com/clowwindy/shadowsocks/wiki/Generate-QR-Code-for-Android-or-iOS-Clients)
     * [Configure Multiple Users](https://github.com/shadowsocks/shadowsocks/wiki/Configure-Multiple-Users)
@@ -23,6 +22,7 @@ Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
     * [TCP Fast Open](https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open)
     * [Using Workers](https://github.com/shadowsocks/shadowsocks/wiki/Workers)
 - Advanced Features
+    * [Manage Multiple Users](https://github.com/shadowsocks/shadowsocks/wiki/Manage-Multiple-Users)
     * [Securing Public Server](https://github.com/shadowsocks/shadowsocks/wiki/Securing-Public-Shadowsocks-Server)
     * [Convert Shadowsocks into an HTTP proxy](https://github.com/shadowsocks/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy)
     * [Using Shadowsocks with Command Line Tools](https://github.com/shadowsocks/shadowsocks/wiki/Using-Shadowsocks-with-Command-Line-Tools)
