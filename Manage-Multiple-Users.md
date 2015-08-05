@@ -7,7 +7,7 @@ If you only want to add multiple users without the on the fly feature, you can c
 Setup
 -----
 
-Turn manager on by specifying `--manager-address`, which is either a Unix socket or an IP address:
+Turn on manager API by specifying `--manager-address`, which is either a Unix socket or an IP address:
 ```
 python shadowsocks/server.py --manager-address /var/run/shadowsocks-manager.sock -c tests/server-multi-passwd.json
 # or
@@ -47,4 +47,22 @@ Shadowsocks will send back transfer statistics:
 
 ```
 stat: {"8001":11370}
+```
+
+Example Code
+------------
+
+Here's code that demonstrates how to talk to the Shadowsocks server:
+```
+import socket
+
+cli = socket.socket(socket.AF_UNIX, socket.SOCK_DGRAM)
+cli.bind('/tmp/client.sock')
+cli.sendto('ping', '/tmp/test.sock')
+cli.recvfrom(1506)  # You'll receive a pong
+
+cli.send(b'add: {"server_port":8001, "password":"7cd308cc059"}')
+
+cli.send(b'remove: {"server_port":8001}')
+
 ```
