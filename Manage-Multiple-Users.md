@@ -9,8 +9,9 @@ Setup
 
 Turn on manager API by specifying `--manager-address`, which is either a Unix socket or an IP address:
 ```
+# Use a Unix socket
 python shadowsocks/server.py --manager-address /var/run/shadowsocks-manager.sock -c tests/server-multi-passwd.json
-# or
+# Use an IP address
 python shadowsocks/server.py --manager-address 127.0.0.1:6001 -c tests/server-multi-passwd.json
 ```
 
@@ -65,4 +66,6 @@ cli.send(b'add: {"server_port":8001, "password":"7cd308cc059"}')
 
 cli.send(b'remove: {"server_port":8001}')
 
+while True:
+    print(cli.recvfrom(1506))  # When data is transferred on Shadowsocks, you'll receive stat info every 10 seconds
 ```
