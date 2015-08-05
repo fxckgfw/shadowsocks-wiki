@@ -10,12 +10,14 @@ Setup
 Turn on manager API by specifying `--manager-address`, which is either a Unix socket or an IP address:
 ```
 # Use a Unix socket
-python shadowsocks/server.py --manager-address /var/run/shadowsocks-manager.sock -c tests/server-multi-passwd.json
+ssserver --manager-address /var/run/shadowsocks-manager.sock -c tests/server-multi-passwd.json
 # Use an IP address
-python shadowsocks/server.py --manager-address 127.0.0.1:6001 -c tests/server-multi-passwd.json
+ssserver --manager-address 127.0.0.1:6001 -c tests/server-multi-passwd.json
 ```
 
 For security reasons, you should use Unix sockets.
+
+When manager is enabled, [workers](https://github.com/shadowsocks/shadowsocks/wiki/Workers) and [graceful restart](https://github.com/shadowsocks/shadowsocks/wiki/Graceful-shutdown-and-restart) are disabled.
 
 Protocol
 --------
