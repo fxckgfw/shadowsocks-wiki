@@ -1,6 +1,6 @@
-Shadowsocks supports `--workers` to spawn child processes like nginx.
+Shadowsocks supports spawning child processes like nginx.
 
-You can use --workers to specify how many workers to use.
+You can use `--workers` to specify how many workers to use.
 
 This argument is only supported on Unix and ssserver.
 
