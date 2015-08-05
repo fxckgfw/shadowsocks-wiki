@@ -1,6 +1,8 @@
+Note: this feature is currently in progress on `manager` branch and not released yet.
+
 If you want to develop a user management system, Shadowsocks provides an API that allows you to add/remove ports on the fly, as well as get transfer statistics from Shadowsocks.
 
-Note: this feature is currently in progress on `manager` branch and not released yet.
+If you only want to add multiple users without the on the fly feature, you can check [this tutorial](https://github.com/shadowsocks/shadowsocks/wiki/Configure-Multiple-Users).
 
 Setup
 -----
