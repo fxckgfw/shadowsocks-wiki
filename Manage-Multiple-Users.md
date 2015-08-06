@@ -66,6 +66,7 @@ print(cli.recv(1506))  # You'll receive 'pong'
 
 cli.send(b'add: {"server_port":8001, "password":"7cd308cc059"}')
 print(cli.recv(1506))  # You'll receive 'ok'
+
 cli.send(b'remove: {"server_port":8001}')
 print(cli.recv(1506))  # You'll receive 'ok'
 
