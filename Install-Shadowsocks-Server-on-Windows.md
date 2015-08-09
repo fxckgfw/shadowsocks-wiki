@@ -1,4 +1,6 @@
-Notice: this page is for server side. If you are looking for clients, visit [clients](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#windows). If you are looking for setting up server on Linux, visit [README](https://github.com/shadowsocks/shadowsocks/blob/master/README.md).
+Notice: this page is for **server side**. If you are looking for clients, visit [clients](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients#windows).
+
+Server deployment on Windows is discouraged, since the `select` API performs very poor. If you want to serve many users, you should always set up your server on Linux. Please visit [README](https://github.com/shadowsocks/shadowsocks/blob/master/README.md) for more details.
 
 1. Download and install [Python for Windows](https://www.python.org/downloads/windows/), you can download x86-64 MSI installer in 64bit Windows.
 2. During installation you should install `pip`  
