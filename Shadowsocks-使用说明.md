@@ -46,9 +46,7 @@ Windows:
 
 建议选择 Ubuntu 14.04 LTS 作为服务器以便使用 [TCP Fast Open]。除非有明确理由，不建议用对新手不友好的 CentOS。
 
-为了更好的性能，VPS 尽量选择 XEN 或 KVM，不要使用 OpenVZ。
-
-推荐使用以下 VPS：
+为了更好的性能，VPS 尽量选择 XEN 或 KVM，不要使用 OpenVZ。推荐使用以下 VPS：
 
 - [Digital Ocean] 自带的内核无需自己编译模块即可使用 [hybla] 算法
 - [Linode] 功能强大，机房较多
