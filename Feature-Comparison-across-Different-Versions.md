@@ -6,6 +6,7 @@ Here's the page answering questions: does A support B?
 ----------------- | --------- | ----------- | ----------| ---------
 Fast Open         |     Y     |      Y      |      N    |     N
 Multiple Users    |     Y     |      Y      |      Y    |     Y
+Management API    |     Y     |      Y      |      N    |     N
 Workers           |     Y     |      N      |      N    |     N
 Graceful Restart  |     Y     |      N      |      N    |     N
 ss-redir          |     N     |      Y      |      N    |     N
