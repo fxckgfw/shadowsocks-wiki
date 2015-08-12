@@ -5,7 +5,7 @@ Here's the page answering questions: does A support B?
                   | [Python]  |   [libev]   |    [Go]   | [node.js]
 ----------------- | --------- | ----------- | ----------| ---------
 Fast Open         |     Y     |      Y      |      N    |     N
-Multiple Users    |     Y     |      N      |      Y    |     Y
+Multiple Users    |     Y     |      Y      |      Y    |     Y
 Workers           |     Y     |      N      |      N    |     N
 Graceful Restart  |     Y     |      N      |      N    |     N
 ss-redir          |     N     |      Y      |      N    |     N
