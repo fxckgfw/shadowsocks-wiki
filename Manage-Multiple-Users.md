@@ -2,6 +2,8 @@ If you want to build a user management system, Shadowsocks provides an API that 
 
 If you simply want to add multiple users without changing them on the fly, you can check [this tutorial](https://github.com/shadowsocks/shadowsocks/wiki/Configure-Multiple-Users).
 
+Notice: only Python and libev versions support this feature.
+
 Setup
 -----
 
