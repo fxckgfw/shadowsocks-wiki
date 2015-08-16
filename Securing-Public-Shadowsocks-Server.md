@@ -1,4 +1,4 @@
-If you share your server with strangers, you need to be careful.
+If you share your server with strangers, you need to be careful. The numbers used below are just examples.
 
 1. [Optimize your server](https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks)
 
