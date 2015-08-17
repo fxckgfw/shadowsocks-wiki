@@ -109,7 +109,7 @@ Bugs and Issues
 [Travis CI]:         https://travis-ci.org/shadowsocks/shadowsocks
 [Troubleshooting]:   https://github.com/shadowsocks/shadowsocks/wiki/Troubleshooting
 [Wiki]:              https://github.com/shadowsocks/shadowsocks/wiki
-[Windows]:           https://github.com/shadowsocks/shadowsocks-csharp
+[Windows]:           https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
 [Digital Ocean]:     https://www.digitalocean.com/?refcode=b1cddd149721
 [Linode]:            https://www.linode.com/?r=e7932c8b03f9abc8aab71663b90b689a676402d1
 [hybla]:             https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks
